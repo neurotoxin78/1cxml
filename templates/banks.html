@@ -1,0 +1,93 @@
+{% extends "main.html" %}
+
+{% block dt %}
+
+<script type="text/javascript">
+	$(function() {
+		$('#date').datepicker({
+			showOn: 'both',
+			buttonImage: "/static/images/calendar.png",
+			buttonImageOnly: true,
+			autoSize: true,
+			onSelect: function (dateText, inst) {
+				$(this).parent('form').submit();
+			}
+		});
+	});
+</script>
+
+
+ <script>
+$(function() {
+$( "#tabs" ).tabs();
+});
+</script>
+
+{% endblock %}
+
+{% block content %}
+
+
+
+<div id="tabs">
+  <ol>
+      <li><a href="#tabs-1">ПАТ "ПIВДЕННИЙ"</a></li>
+    <li><a href="#tabs-2">ПАТ "АКБ Киiв"</a></li>
+    <li><a href="#tabs-3">ПАТ "Кредитпромбанк"</a></li>
+    <li><a href="#tabs-4">ПАТ "ВБР"</a></li>
+    <li><a href="#tabs-5">Основная касса</a></li>
+  </ol>
+
+<div class="datepicker" slyle="float: left;" >
+    <form id="frmDate" action="" method="post" >
+	    <input id="date" title="Календарь" name="date" type="hidden"  />
+    </form>
+</div>
+
+<div class="bank_summary_head_main">
+{{summary|safe}}
+</div>
+
+<div id="tabs-1" >
+    {{ bank_id_3|safe }}
+</div>
+
+<div id="tabs-2">
+    {{ bank_id_2|safe }}
+</div>
+
+<div id="tabs-3">
+    {{ bank_id_1|safe}}
+</div>
+
+<div id="tabs-4">
+    {{ bank_id_4|safe }}
+</div>
+
+<div id="tabs-5">
+    {{ bank_id_0|safe }}
+</div>
+
+
+
+
+<div class="divider-horizontal2"></div>
+<div id='inner'>
+<!--
+Путь:  {{ request.path }}
+-->
+<center>
+<a href="#" class="show_hide">Отладочные сообщения</a>
+</center>
+<div class="slidingDiv">
+Дата\Время:{{ datetime | safe}}
+<br>
+Отладка:<br>
+{{ debug | safe }}
+</div>
+        </div>
+
+
+{{ content | safe }}
+
+{% endblock %}
