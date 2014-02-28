@@ -105,11 +105,23 @@ $(document).ready(function(){
   <ul id='menu'>
     <li><a href="/"><img src="/static/images/home.png" style="float: left;"></img><span>&nbsp </span>Главная</a></li>
     <li><a href="/bank"><img src="/static/images/bank.png" style="float: left;"></img><span>&nbsp  </span>Оперативная</a></li>
+    <li><a href="/logout"><img src="/static/images/exit.png" style="float: left;"></img><span>&nbsp  </span>Выход</a></li>
+
 </ul>
 
 </div>
 {% block page %}
     {% block content %}
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <ul>
+    {% for message in messages %}
+        <li style="color: red;">{{ message }} </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+    {% endwith %}
+
         {{ content| safe }}
     {% endblock %}
 {% endblock %}

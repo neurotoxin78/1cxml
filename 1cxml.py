@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from functools import wraps
-from flask import Flask, g, session, redirect, url_for, escape, request, Response
+from flask import Flask, g, session, redirect, flash,  url_for, escape, request, Response
 from flask import render_template
 from flask import Markup
 import time
@@ -9,61 +9,56 @@ from datetime import datetime
 from nanoparcer.xparcer import Parcer
 from nanoparcer.html import html
 import locale
+from forms import LoginForm
+
+
 locale.setlocale(locale.LC_ALL, '')
-
-
 
 p = Parcer()
 h = html()
 
 app = Flask(__name__)
+app.config.from_object('config')
 
+@app.before_request
+def before_request():
+    g.user = None
 
-def check_auth(username, password):
-    """This function is called to check if a username /
-    password combination is valid.
-    """
-    return username == 'neuro' and password == 'cyber78d'
+@app.route('/login', methods = ['GET', 'POST'])
+def login():
+    form = LoginForm()
+    if form.validate_on_submit():
+        #flash(u'Пользователь ' + form.openid.data )# '", remember_me=' + str(form.remember_me.data))
+        if form.openid.data == 'neuro' and form.password.data == 'cyber78d':
+            session['username'] = form.openid.data
+            return redirect('/')
+        else:
+            return redirect('/login')
+    return render_template('login.html', 
+        title = 'Sign In',
+        form = form)
 
-
-def authenticate():
-    """Sends a 401 response that enables basic auth"""
-    return Response(
-        'Could not verify your access level for that URL.\n'
-        'You have to login with proper credentials', 401,
-        {'WWW-Authenticate': 'Basic realm="Login Required"'})
-
-
-def requires_auth(f):
-    @wraps(f)
-    def decorated(*args, **kwargs):
-        auth = request.authorization
-        if not auth or not check_auth(auth.username, auth.password):
-            return authenticate()
-        return f(*args, **kwargs)
-    return decorated
 
 
 @app.route("/")
 def hello():
-    if 'username' in session:
-        return 'Logged in as %s' % escape(session['username'])
+    print session
+    if 'username' not in session:
+       return redirect('/login')    
     date = datetime.now().strftime("%A, %d %B %Y")
 
-    html = u'''<div class="wide"><center><h2>Добро пожаловать</h2><p>
+    html = u'''<div class="wide"><center><h2>Добро пожаловать {}</h2><p>
     <h3>Сегодня: {}</h3> <center>
-    </div>'''.format(date.decode('utf-8'))
+    </div>'''.format(session['username'],date.decode('utf-8'))
 
 
     return render_template('main.html', content=html)
 
 
 @app.route("/bank", methods=['GET','POST'])
-@requires_auth
 def bank():
-    if 'username' in session:
-        return 'Logged in as %s' % escape(session['username'])
-    
+    if 'username' not in session:
+       return redirect('/login')     
     if request.method == 'POST':
         date = request.form['date'] 
         try:
@@ -98,7 +93,16 @@ def bank():
                             bank_id_3=bank_3, bank_id_4=bank_4,
                             title="uInformed 2.0 flask", summary="test")
 
+@app.route("/logout")
+def logout():
+    session.clear()
+    flash(u'Вы вышли', category='info')
+    return redirect('/')
+ 
+
 
 if __name__ == "__main__":
+    app.secret_key = "bcjkm4kPpYviyA7qjMTwn3ngo3C9LAHui9AfmgHNKeJXv7vbnc7EzMTCUhK3JiJ7"
     app.run(debug=True, host='0.0.0.0')
+
 
