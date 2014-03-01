@@ -1,4 +1,4 @@
-{% extends "main.html" %}
+{% extends "mobile.html" %}
 
 {% block dt %}
 
@@ -31,23 +31,18 @@ $( "#tabs" ).tabs();
 
 <div id="tabs">
   <ol>
-      <li><a href="#tabs-1"><img src="/static/images/banks.png"</img>ПАТ "ПІВДЕННИЙ"</a></li>
-    <li><a href="#tabs-2"><img src="/static/images/banks.png"</img>ПАТ "АКБ Київ"</a></li>
-    <li><a href="#tabs-3"><img src="/static/images/banks.png"</img>ПАТ "КРЕДИТПРОМБАНК"</a></li>
-    <li><a href="#tabs-4"><img src="/static/images/banks.png"</img>ПАТ "ВБР"</a></li>
-    <li><a href="#tabs-5"><img src="/static/images/cash.png"</img>Касса</a></li>
+      <li><a href="#tabs-1"><img src="/static/images/banks.png"</img></a></li>
+    <li><a href="#tabs-2"><img src="/static/images/banks.png"</img></a></li>
+    <li><a href="#tabs-3"><img src="/static/images/banks.png"</img></a></li>
+    <li><a href="#tabs-4"><img src="/static/images/banks.png"</img></a></li>
+    <li><a href="#tabs-5"><img src="/static/images/cash.png"</img></a></li>
   </ol>
 
-<div id='dp'>
-   <div class ='child_div_1'>
+<div class="datepicker" slyle="float: left;" >
     <form id="frmDate" action="" method="post" >
 	    <input id="date" title="Календарь" name="date" type="hidden"  />
     </form>
 </div>
-
-
-</div>
-
 
 <div id="tabs-1" >
     {{ bank_id_3|safe }}

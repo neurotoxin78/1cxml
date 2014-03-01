@@ -31,6 +31,7 @@ h3 {
 
 .wide { min-width: 100%; 
         height: 500px; 
+        margin-top: 20px;
         display: inline-block; 
         padding-left: 10px; 
         background-color: #f2f5f7; 
@@ -62,10 +63,9 @@ border-bottom-left-radius: 10px;
 #contentwrap {
   margin-left:auto;
   margin-right:auto;
-    margin: 1 auto;
+    margin-top: 5px;
     border:none 1px #000000;
-    width: 90%; height: 80%; padding: 0.3em;
-
+    width: 90%; height: 80%;
 }
 
 #content {
@@ -75,7 +75,6 @@ border-bottom-left-radius: 10px;
     margin: 1px;
     resize: both;
     width: 100%;
-    z-index: 0;
 }
 
 
@@ -108,10 +107,10 @@ border-bottom-left-radius: 10px;
 
 
 .slidingDiv {
-    height:560px;
+    height:200px;
     padding:0px;
     margin-top:0px;
-    border-bottom:5px solid #FFA500;
+    border-bottom:2px solid #FFA500;
     overflow-y: auto;
     overflow-x: auto;
 
@@ -155,55 +154,12 @@ border-bottom-left-radius: 10px;
 }
 
 
-
-
-
-
-.divider-vertical-second-menu {
-   height: 400px;
-   width: 30px;
-   margin: 0 5px;
-   background-color: transperent;
-   border-right: 0px solid #FFF;
-}
-
-.divider-horizontal {
-   height: 10px;
-   width: 500px;
-   margin: 0 5px;
-   background-color: transperent;
-   border-right: 0px solid #FFF;
-}
-
-.divider-horizontal-data {
-   height: 5px;
-   width: 100px;
-   margin: 0 5px;
-   background-color: transperent;
-   border-right: 0px solid #FFF;
-}
-.divider-horizontal2 {
-   height: 10px;
-   width: 500px;
-   margin: 0 5px;
-   background-color: transperent;
-   border-right: 0px solid #FFF;
-}
-
-.bank_summary_head {
-
-   color:white;
-   font-weight: bold;
-  padding: 5px;
-    text-align: center;
-   vertical-align:middle;
-   border-right: 1px solid #FFF;
-}
-
 .bank_summary_head_main {
 font-size: 14px;
    color:#3b70a3;
       background-color: transperent;
+      float: left;
+display:inline-block;
    font-weight: bold;
   padding: 3px;
     text-align: center;
@@ -211,54 +167,36 @@ font-size: 14px;
 }
 
 .datepicker {
-   display: block;
-   position:relative;
+   display:inline-block;
+   float: left;
    background-color: transperent;
    padding: 5px;
    margin: 5px;
 }
 
-.calc {
-   padding-left: 15px;
-   background-color: transperent;
-   display: block;
-
+#dp, #sum{
+    margin-right:10px;
+    float:left;
+}
+.child_div_1{
+    float:left;
+    margin-left:5px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: text-top;
 }
 
-.calculator {
-   padding-left: 15px;
-   background-color: transperent;
-   display: block;
 
-}
 
 #tabs {
+    margin-top: 35px;
    height: 80%;
    padding-left: 15px;
    background-color: transperent;
    display: block;
-
-}
-
-.leftside {
-    color: #1E90FF;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 5px;
-    float: left;
-    text-align: left;
-    vertical-align:middle;
-
-}
-
-.rightside {
-    font-size: 16px;
-    font-weight: bold;
-    padding: 5px;
-    text-align: right;
-    vertical-align:middle;
-    border-right: 1px solid #FFF;
-    color: #FF7900;
 }
 
 

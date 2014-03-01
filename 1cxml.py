@@ -50,9 +50,17 @@ def hello():
     html = u'''<div class="wide"><center><h2>Добро пожаловать {}</h2><p>
     <h3>Сегодня: {}</h3> <center>
     </div>'''.format(session['username'],date.decode('utf-8'))
+    
+        
 
-
-    return render_template('main.html', content=html)
+    debug=""
+    platform = request.user_agent.platform
+    if platform == "android":
+        template = "mobile.html"
+    else:
+        template = "main.html"
+    sum = platform
+    return render_template(template, content=html, debug=platform, summary=sum)
 
 
 @app.route("/bank", methods=['GET','POST'])
@@ -88,10 +96,18 @@ def bank():
         bank_3 = h.gen_summary_html(p.xml2dict_summary_bank("3"),"3")
         bank_4 = h.gen_summary_html(p.xml2dict_summary_bank("4"),"4")
 
-    return render_template('banks.html', 
+    debug=""
+    platform = request.user_agent.platform
+    if platform == "android":
+        template = "mbanks.html"
+    else:
+        template = "banks.html"
+
+    sum = u"Сумма по всем счетам: "
+    return render_template(template, 
                             bank_id_0=cassa, bank_id_1=bank_1, bank_id_2=bank_2, 
                             bank_id_3=bank_3, bank_id_4=bank_4,
-                            title="uInformed 2.0 flask", summary="test")
+                            title="uInformed 2.0 flask", summary=sum)
 
 @app.route("/logout")
 def logout():

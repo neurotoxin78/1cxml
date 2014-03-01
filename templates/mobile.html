@@ -97,21 +97,22 @@ $(document).ready(function(){
 
 </div>
 
-        <div id="contentwrap" title="{{ title }}">
+        <div id="contentwrap" style="width: 98%; height: auto;" title="{{ title }}">
         <div id="content">
 
 
 <div class='menubar'>
   <ul id='menu'>
-    <li><a href="/"><img src="/static/images/home.png" style="float: left;"></img>Главная</a></li>
-    <li><a href="/bank"><img src="/static/images/oper.png" style="float: left;"></img>Оперативная</a></li>
-    <li><a href="/logout"><img src="/static/images/exit.png" style="float: left;"></img>Выход</a></li>
+    <li><a href="/"><img src="/static/images/home.png" style="float: left;"></img></a></li>
+    <li><a href="/bank"><img src="/static/images/oper.png" style="float: left;"></img></a></li>
+    <li><a href="/logout"><img src="/static/images/exit.png" style="float: left;"></img></a></li>
+
 </ul>
 </div>
+
 <div class="child_div_1">
 {{summary|safe}}
 </div>
-
 
 {% block page %}
     {% block content %}
