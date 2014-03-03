@@ -1,0 +1,607 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RaschProd>
+	<Svod Svod_isxodKt="2 647 747,82" Svod_isxodDt="16 247 429,30" Svod_oborKt="0" Svod_oborDt="0" Svod_vxodKt="2 647 747,82" Svod_vxodDt="16 247 429,30">
+		<str_drive str_isxodKt="0" str_isxodDt="6 818 977,33" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="6 818 977,33" str_kontr="Підрядне спеціал.шляхове рем.-буд.управління&quot;"/>
+		<str_drive str_isxodKt="0" str_isxodDt="4 553 592,90" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="4 553 592,90" str_kontr="Арпа"/>
+		<str_drive str_isxodKt="0" str_isxodDt="1 002 000,00" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="1 002 000,00" str_kontr="РОКИТНЯНСЬКЕ КОЛЕКТИВНЕ АВТОТРАНСПО.ПІДПРИЄМ."/>
+		<str_drive str_isxodKt="574 796,73" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="574 796,73" str_vxodDt="0" str_kontr="СПЕЦБУДСТАНДАРТ"/>
+		<str_drive str_isxodKt="0" str_isxodDt="515 028,67" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="515 028,67" str_kontr="СПЕЦШЛЯХБУД"/>
+		<str_drive str_isxodKt="361 464,58" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="361 464,58" str_vxodDt="0" str_kontr="Будівельно-монтажна компанія 2010"/>
+		<str_drive str_isxodKt="361 098,97" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="361 098,97" str_vxodDt="0" str_kontr="КЖБК БМУ-2"/>
+		<str_drive str_isxodKt="0" str_isxodDt="359 965,40" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="359 965,40" str_kontr="ТОВ &quot;Марвелл-Буд&quot;"/>
+		<str_drive str_isxodKt="0" str_isxodDt="337 779,70" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="337 779,70" str_kontr="ШБУ-№41"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="310 750,19" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="310 750,19" str_kontr="Цемекс - Бетон"/>
+		<str_drive str_isxodKt="0" str_isxodDt="263 685,54" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="263 685,54" str_kontr="Тайм"/>
+		<str_drive str_isxodKt="0" str_isxodDt="227 148,07" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="227 148,07" str_kontr="Пересувна механізована колона-43"/>
+		<str_drive str_isxodKt="0" str_isxodDt="226 758,69" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="226 758,69" str_kontr="Трест Київпідземшляхбуд-2"/>
+		<str_drive str_isxodKt="203 830,32" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="203 830,32" str_vxodDt="0" str_kontr="ЕВЕРЕСТМОНТАЖ"/>
+		<str_drive str_isxodKt="0" str_isxodDt="202 184,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="202 184,01" str_kontr="Мостобудівельний загін №7"/>
+		<str_drive str_isxodKt="0" str_isxodDt="156 633,32" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="156 633,32" str_kontr="Артембуд"/>
+		<str_drive str_isxodKt="0" str_isxodDt="151 399,43" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="151 399,43" str_kontr="ТД &quot;БМТ&quot;"/>
+		<str_drive str_isxodKt="0" str_isxodDt="129 341,72" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="129 341,72" str_kontr="Укрбудмет"/>
+		<str_drive str_isxodKt="0" str_isxodDt="122 961,44" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="122 961,44" str_kontr="ШЕУ Голосіївського району"/>
+		<str_drive str_isxodKt="97 071,75" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="97 071,75" str_vxodDt="0" str_kontr="ПАТЕРА УКРАЇНА"/>
+		<str_drive str_isxodKt="0" str_isxodDt="95 496,02" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="95 496,02" str_kontr="МАКСІГРАН"/>
+		<str_drive str_isxodKt="0" str_isxodDt="71 140,48" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="71 140,48" str_kontr="ШЕУ Деснянського р-ну"/>
+		<str_drive str_isxodKt="64 291,08" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="64 291,08" str_vxodDt="0" str_kontr="Житлоінвестбуд-УКБ"/>
+		<str_drive str_isxodKt="59 040,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="59 040,01" str_vxodDt="0" str_kontr="ЗБ Постач Комплекс"/>
+		<str_drive str_isxodKt="0" str_isxodDt="56 944,99" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="56 944,99" str_kontr="СВР ТЕХНОЛОГІЯ"/>
+		<str_drive str_isxodKt="55 502,76" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="55 502,76" str_vxodDt="0" str_kontr="ТОВ &quot;Собі&quot;"/>
+		<str_drive str_isxodKt="55 268,56" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="55 268,56" str_vxodDt="0" str_kontr="САНТЕХСЕРВІС"/>
+		<str_drive str_isxodKt="53 522,10" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="53 522,10" str_vxodDt="0" str_kontr="Дорожньо-будівельне управління - 208"/>
+		<str_drive str_isxodKt="52 201,82" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="52 201,82" str_vxodDt="0" str_kontr="Коломієць В.І"/>
+		<str_drive str_isxodKt="0" str_isxodDt="52 000,00" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="52 000,00" str_kontr="Бориспільська СПМК-530"/>
+		<str_drive str_isxodKt="0" str_isxodDt="50 357,56" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="50 357,56" str_kontr="АВТОРЕМБУДСЕРВІС (БК)"/>
+		<str_drive str_isxodKt="0" str_isxodDt="45 000,00" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="45 000,00" str_kontr="ШРБУ №100"/>
+		<str_drive str_isxodKt="0" str_isxodDt="39 931,35" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="39 931,35" str_kontr="БУДКОНСТРАКШН"/>
+		<str_drive str_isxodKt="0" str_isxodDt="39 650,34" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="39 650,34" str_kontr="Ягуар"/>
+		<str_drive str_isxodKt="0" str_isxodDt="39 341,91" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="39 341,91" str_kontr="Будавто"/>
+		<str_drive str_isxodKt="0" str_isxodDt="33 080,20" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="33 080,20" str_kontr="Будінженермережа-2"/>
+		<str_drive str_isxodKt="32 764,41" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="32 764,41" str_vxodDt="0" str_kontr="СМУ 1 ЗЗБК №1"/>
+		<str_drive str_isxodKt="32 292,31" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="32 292,31" str_vxodDt="0" str_kontr="Домобудівний .комбінат №4"/>
+		<str_drive str_isxodKt="30 299,71" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="30 299,71" str_vxodDt="0" str_kontr="ДНІПРОНАФТОПРОДУКТ"/>
+		<str_drive str_isxodKt="0" str_isxodDt="29 554,40" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="29 554,40" str_kontr="Ф-АРТ"/>
+		<str_drive str_isxodKt="28 322,84" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="28 322,84" str_vxodDt="0" str_kontr="Укр.-Рос.-Авс.СП&quot;Золотий Вік&quot;"/>
+		<str_drive str_isxodKt="0" str_isxodDt="27 852,82" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="27 852,82" str_kontr="ПРОМВПРОВАДЖЕННЯ НВО"/>
+		<str_drive str_isxodKt="25 019,92" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="25 019,92" str_vxodDt="0" str_kontr="Автобудтрек"/>
+		<str_drive str_isxodKt="0" str_isxodDt="24 000,00" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="24 000,00" str_kontr="БУДТРАНСІНВЕСТ-ГРУП"/>
+		<str_drive str_isxodKt="23 774,45" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="23 774,45" str_vxodDt="0" str_kontr="ТЕРМОСАНТЕХСЕРВІС"/>
+		<str_drive str_isxodKt="22 976,11" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="22 976,11" str_vxodDt="0" str_kontr="ВЕКА"/>
+		<str_drive str_isxodKt="0" str_isxodDt="21 574,23" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="21 574,23" str_kontr="Дорожньо-будівельна компанія-11"/>
+		<str_drive str_isxodKt="0" str_isxodDt="21 425,28" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="21 425,28" str_kontr="Шляхо-будівельне управління № 14"/>
+		<str_drive str_isxodKt="19 311,74" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="19 311,74" str_vxodDt="0" str_kontr="Термо-1"/>
+		<str_drive str_isxodKt="0" str_isxodDt="17 998,37" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="17 998,37" str_kontr="Янол ЛТД"/>
+		<str_drive str_isxodKt="0" str_isxodDt="17 581,61" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="17 581,61" str_kontr="Університет оборони України"/>
+		<str_drive str_isxodKt="17 517,48" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="17 517,48" str_vxodDt="0" str_kontr="АГС-2008"/>
+		<str_drive str_isxodKt="0" str_isxodDt="16 592,28" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="16 592,28" str_kontr="Рембудтранс"/>
+		<str_drive str_isxodKt="0" str_isxodDt="16 546,36" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="16 546,36" str_kontr="ТАЙМ фірма"/>
+		<str_drive str_isxodKt="0" str_isxodDt="15 548,35" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="15 548,35" str_kontr="Укрмегагранд"/>
+		<str_drive str_isxodKt="15 068,87" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="15 068,87" str_vxodDt="0" str_kontr="ЕКОТАН УКРАЇНА"/>
+		<str_drive str_isxodKt="14 795,30" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="14 795,30" str_vxodDt="0" str_kontr="ВІЧНЕ-МІСТО ТЕРМ"/>
+		<str_drive str_isxodKt="14 738,16" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="14 738,16" str_vxodDt="0" str_kontr="Профіль-С"/>
+		<str_drive str_isxodKt="0" str_isxodDt="14 712,66" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="14 712,66" str_kontr="СТРОЙДОРСЕРВІС-В"/>
+		<str_drive str_isxodKt="14 440,95" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="14 440,95" str_vxodDt="0" str_kontr="РЕГІОН-АГРОБУД  ТОВ"/>
+		<str_drive str_isxodKt="13 007,87" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="13 007,87" str_vxodDt="0" str_kontr="Прогрес-92"/>
+		<str_drive str_isxodKt="12 449,08" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="12 449,08" str_vxodDt="0" str_kontr="БУДАРХРЕСТАВРАЦІЯ"/>
+		<str_drive str_isxodKt="12 305,98" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="12 305,98" str_vxodDt="0" str_kontr="Київська енергетична будівельна компанія"/>
+		<str_drive str_isxodKt="12 170,61" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="12 170,61" str_vxodDt="0" str_kontr="УКРАЇНА (ПКП)"/>
+		<str_drive str_isxodKt="12 170,41" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="12 170,41" str_vxodDt="0" str_kontr="ЕЛЕКТРОМОНТАЖ"/>
+		<str_drive str_isxodKt="0" str_isxodDt="11 238,53" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="11 238,53" str_kontr="ІНТЕРГАЛ-БУД"/>
+		<str_drive str_isxodKt="0" str_isxodDt="10 952,30" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="10 952,30" str_kontr="Комуншляхбуд"/>
+		<str_drive str_isxodKt="10 734,14" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="10 734,14" str_vxodDt="0" str_kontr="Альтіс-Спецбуд"/>
+		<str_drive str_isxodKt="10 570,55" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="10 570,55" str_vxodDt="0" str_kontr="Житлошляхбуд"/>
+		<str_drive str_isxodKt="0" str_isxodDt="10 000,00" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="10 000,00" str_kontr="ШЕУ &quot;Магістраль&quot;"/>
+		<str_drive str_isxodKt="9 791,24" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="9 791,24" str_vxodDt="0" str_kontr="ПМК"/>
+		<str_drive str_isxodKt="9 628,79" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="9 628,79" str_vxodDt="0" str_kontr="УКРПЛАСТИК"/>
+		<str_drive str_isxodKt="9 427,14" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="9 427,14" str_vxodDt="0" str_kontr="Авітон БудПроект"/>
+		<str_drive str_isxodKt="0" str_isxodDt="9 348,04" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="9 348,04" str_kontr="ТОВ &quot;Сатурн ГІК&quot;"/>
+		<str_drive str_isxodKt="9 121,09" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="9 121,09" str_vxodDt="0" str_kontr="Сенс"/>
+		<str_drive str_isxodKt="9 018,52" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="9 018,52" str_vxodDt="0" str_kontr="Інжбудсервіс КМП"/>
+		<str_drive str_isxodKt="8 973,31" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="8 973,31" str_vxodDt="0" str_kontr="Термінал-2000"/>
+		<str_drive str_isxodKt="8 589,76" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="8 589,76" str_vxodDt="0" str_kontr="ТОВ &quot;Міжнародна компанія &quot;Антарес&quot;"/>
+		<str_drive str_isxodKt="8 512,80" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="8 512,80" str_vxodDt="0" str_kontr="Інбуд"/>
+		<str_drive str_isxodKt="8 497,15" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="8 497,15" str_vxodDt="0" str_kontr="КИЇВПАСТРАНС"/>
+		<str_drive str_isxodKt="0" str_isxodDt="8 129,83" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="8 129,83" str_kontr="БЛАН-ДОР"/>
+		<str_drive str_isxodKt="0" str_isxodDt="8 062,88" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="8 062,88" str_kontr="Спецмеблі"/>
+		<str_drive str_isxodKt="0" str_isxodDt="7 965,84" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="7 965,84" str_kontr="Жуляни"/>
+		<str_drive str_isxodKt="7 628,41" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="7 628,41" str_vxodDt="0" str_kontr="Інжбудкомплекс"/>
+		<str_drive str_isxodKt="0" str_isxodDt="7 523,64" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="7 523,64" str_kontr="БУДАВТОДОР"/>
+		<str_drive str_isxodKt="7 424,31" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="7 424,31" str_vxodDt="0" str_kontr="Домобудівний комбінат №3"/>
+		<str_drive str_isxodKt="0" str_isxodDt="7 319,69" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="7 319,69" str_kontr="Військова частина А-4068"/>
+		<str_drive str_isxodKt="6 951,96" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="6 951,96" str_vxodDt="0" str_kontr="Будінженермережа-5"/>
+		<str_drive str_isxodKt="6 943,02" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="6 943,02" str_vxodDt="0" str_kontr="ТМК"/>
+		<str_drive str_isxodKt="6 877,40" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="6 877,40" str_vxodDt="0" str_kontr="ЯБЛУКО"/>
+		<str_drive str_isxodKt="0" str_isxodDt="6 462,56" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="6 462,56" str_kontr="Інжбудсервіс ТОВ"/>
+		<str_drive str_isxodKt="6 414,74" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="6 414,74" str_vxodDt="0" str_kontr="Військова частина 3066"/>
+		<str_drive str_isxodKt="6 215,95" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="6 215,95" str_vxodDt="0" str_kontr="НЬЮ СЕНЧУРІ ДЕВЕЛОПМЕНТ"/>
+		<str_drive str_isxodKt="6 066,86" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="6 066,86" str_vxodDt="0" str_kontr="Завод залізобетон.кон.ім.Світлани Ковальської"/>
+		<str_drive str_isxodKt="0" str_isxodDt="6 010,32" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="6 010,32" str_kontr="ІРІГАЦІЙНІ СИСТЕМИ  (НВП)"/>
+		<str_drive str_isxodKt="0" str_isxodDt="5 952,60" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="5 952,60" str_kontr="КБФ Віона"/>
+		<str_drive str_isxodKt="5 919,84" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="5 919,84" str_vxodDt="0" str_kontr="Лідер Груп"/>
+		<str_drive str_isxodKt="5 607,81" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="5 607,81" str_vxodDt="0" str_kontr="СІНТА-СЕРВІС"/>
+		<str_drive str_isxodKt="5 307,54" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="5 307,54" str_vxodDt="0" str_kontr="МОНОЛІТ ПЛЮС"/>
+		<str_drive str_isxodKt="0" str_isxodDt="5 026,04" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="5 026,04" str_kontr="Алсена"/>
+		<str_drive str_isxodKt="4 672,94" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="4 672,94" str_vxodDt="0" str_kontr="Артем"/>
+		<str_drive str_isxodKt="4 352,83" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="4 352,83" str_vxodDt="0" str_kontr="Київ-Дніпровське МППЗТ"/>
+		<str_drive str_isxodKt="4 321,32" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="4 321,32" str_vxodDt="0" str_kontr="ДОРБУДСТРОЙ"/>
+		<str_drive str_isxodKt="4 319,83" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="4 319,83" str_vxodDt="0" str_kontr="РІВАР-А"/>
+		<str_drive str_isxodKt="4 289,18" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="4 289,18" str_vxodDt="0" str_kontr="Зелених насаджень Солом'янського район"/>
+		<str_drive str_isxodKt="3 995,02" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="3 995,02" str_vxodDt="0" str_kontr="Ладья"/>
+		<str_drive str_isxodKt="0" str_isxodDt="3 843,69" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="3 843,69" str_kontr="ПРОМЕНЕРГОБУД УКРАЇНА"/>
+		<str_drive str_isxodKt="3 831,02" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="3 831,02" str_vxodDt="0" str_kontr="Оболонь"/>
+		<str_drive str_isxodKt="3 794,26" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="3 794,26" str_vxodDt="0" str_kontr="Українська Уніонна Конференція Церкви Адвен.Сьомог"/>
+		<str_drive str_isxodKt="3 581,05" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="3 581,05" str_vxodDt="0" str_kontr="Енергошляхбудмеханізація"/>
+		<str_drive str_isxodKt="3 551,93" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="3 551,93" str_vxodDt="0" str_kontr="Іванов С.С."/>
+		<str_drive str_isxodKt="3 486,21" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="3 486,21" str_vxodDt="0" str_kontr="РОСТБУД ІНВЕСТ"/>
+		<str_drive str_isxodKt="3 478,46" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="3 478,46" str_vxodDt="0" str_kontr="БУДСПЕЦПРОЕКТ"/>
+		<str_drive str_isxodKt="3 218,91" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="3 218,91" str_vxodDt="0" str_kontr="Укрремдорстрой"/>
+		<str_drive str_isxodKt="3 003,11" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="3 003,11" str_vxodDt="0" str_kontr="ТОВ &quot;Спецдортрансбуд&quot;"/>
+		<str_drive str_isxodKt="2 955,62" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="2 955,62" str_vxodDt="0" str_kontr="Гриценко П.О."/>
+		<str_drive str_isxodKt="2 835,24" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="2 835,24" str_vxodDt="0" str_kontr="М-Буд"/>
+		<str_drive str_isxodKt="2 648,54" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="2 648,54" str_vxodDt="0" str_kontr="Атлант"/>
+		<str_drive str_isxodKt="2 598,10" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="2 598,10" str_vxodDt="0" str_kontr="Томак"/>
+		<str_drive str_isxodKt="0" str_isxodDt="2 568,48" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="2 568,48" str_kontr="Спецдорсервіс (ДБК)"/>
+		<str_drive str_isxodKt="2 559,78" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="2 559,78" str_vxodDt="0" str_kontr="ВБК БУ-8 ПІДРЯД"/>
+		<str_drive str_isxodKt="2 373,89" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="2 373,89" str_vxodDt="0" str_kontr="Будинкоуправління N12 КЕУ МОУ"/>
+		<str_drive str_isxodKt="2 362,51" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="2 362,51" str_vxodDt="0" str_kontr="Слюсар В.Г."/>
+		<str_drive str_isxodKt="2 316,30" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="2 316,30" str_vxodDt="0" str_kontr="ЖИТЛО-БУД"/>
+		<str_drive str_isxodKt="2 286,46" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="2 286,46" str_vxodDt="0" str_kontr="Автобаза Державного Управління Справами"/>
+		<str_drive str_isxodKt="2 187,00" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="2 187,00" str_vxodDt="0" str_kontr="АВТОБУДКАПІТАЛ"/>
+		<str_drive str_isxodKt="2 169,03" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="2 169,03" str_vxodDt="0" str_kontr="Генеральна.дирекція Київської міськ.ради з обсл.іноз."/>
+		<str_drive str_isxodKt="2 158,95" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="2 158,95" str_vxodDt="0" str_kontr="Шаманський В.М."/>
+		<str_drive str_isxodKt="2 089,35" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="2 089,35" str_vxodDt="0" str_kontr="САНТА-Р"/>
+		<str_drive str_isxodKt="2 073,28" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="2 073,28" str_vxodDt="0" str_kontr="СТС-ГЕНПІДРЯД"/>
+		<str_drive str_isxodKt="2 057,31" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="2 057,31" str_vxodDt="0" str_kontr="Полярний"/>
+		<str_drive str_isxodKt="1 965,58" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 965,58" str_vxodDt="0" str_kontr="ЦЕМЕНТНИЙ АЛЬЯНС  (Т-ТК )"/>
+		<str_drive str_isxodKt="1 933,46" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 933,46" str_vxodDt="0" str_kontr="Будмонтаж"/>
+		<str_drive str_isxodKt="1 921,96" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 921,96" str_vxodDt="0" str_kontr="ТАНДЕМ РОУТ"/>
+		<str_drive str_isxodKt="1 911,67" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 911,67" str_vxodDt="0" str_kontr="Ремонтно-будівельне управління № 3"/>
+		<str_drive str_isxodKt="1 853,86" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 853,86" str_vxodDt="0" str_kontr="ТОВ &quot;Спецбудбетон&quot;"/>
+		<str_drive str_isxodKt="0" str_isxodDt="1 828,20" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="1 828,20" str_kontr="ПРОМТЕХ ІНВЕСТ"/>
+		<str_drive str_isxodKt="1 794,78" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 794,78" str_vxodDt="0" str_kontr="ПРОМЖИТЛОБУД  ( ДП)"/>
+		<str_drive str_isxodKt="0" str_isxodDt="1 772,52" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="1 772,52" str_kontr="Іскра  (фірма)"/>
+		<str_drive str_isxodKt="1 770,17" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 770,17" str_vxodDt="0" str_kontr="ІК-Монтаж"/>
+		<str_drive str_isxodKt="1 744,71" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 744,71" str_vxodDt="0" str_kontr="Модуль-М"/>
+		<str_drive str_isxodKt="1 654,12" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 654,12" str_vxodDt="0" str_kontr="НОВОБУД-ВС"/>
+		<str_drive str_isxodKt="1 654,08" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 654,08" str_vxodDt="0" str_kontr="Бойко В.М."/>
+		<str_drive str_isxodKt="1 611,47" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 611,47" str_vxodDt="0" str_kontr="ТОВ &quot;Укрпідводтрубопровідбуд&quot;"/>
+		<str_drive str_isxodKt="1 546,53" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 546,53" str_vxodDt="0" str_kontr="Київжитлоспецексплуатація"/>
+		<str_drive str_isxodKt="1 503,19" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 503,19" str_vxodDt="0" str_kontr="АВС Синергія"/>
+		<str_drive str_isxodKt="1 494,03" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 494,03" str_vxodDt="0" str_kontr="Загарян А.М."/>
+		<str_drive str_isxodKt="1 410,44" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 410,44" str_vxodDt="0" str_kontr="ГРУПА КОМПАНІЙ АРТБУД"/>
+		<str_drive str_isxodKt="1 370,77" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 370,77" str_vxodDt="0" str_kontr="Гарант-Енерго"/>
+		<str_drive str_isxodKt="1 337,29" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 337,29" str_vxodDt="0" str_kontr="РЕМШЛЯХБУД-21"/>
+		<str_drive str_isxodKt="1 255,18" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 255,18" str_vxodDt="0" str_kontr="ТОП-ІНСТРУМЕНТ"/>
+		<str_drive str_isxodKt="1 213,30" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 213,30" str_vxodDt="0" str_kontr="ГРОСС"/>
+		<str_drive str_isxodKt="1 200,25" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 200,25" str_vxodDt="0" str_kontr="ЕЛЕКТРОБУД"/>
+		<str_drive str_isxodKt="1 145,46" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 145,46" str_vxodDt="0" str_kontr="Батурін М.М."/>
+		<str_drive str_isxodKt="1 093,13" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 093,13" str_vxodDt="0" str_kontr="Саєнко В.В."/>
+		<str_drive str_isxodKt="1 067,96" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 067,96" str_vxodDt="0" str_kontr="ТОВ &quot;СТОЛИЧНІ БУДТЕХНОЛОГІЇ&quot;"/>
+		<str_drive str_isxodKt="1 066,22" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 066,22" str_vxodDt="0" str_kontr="Автомобільні дороги України (ф-я Київське)"/>
+		<str_drive str_isxodKt="1 030,93" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 030,93" str_vxodDt="0" str_kontr="ВЕКТОР ІНВЕСТ КОНТРАКТ"/>
+		<str_drive str_isxodKt="1 025,38" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 025,38" str_vxodDt="0" str_kontr="МІСЬКБУДІНВЕСТ"/>
+		<str_drive str_isxodKt="1 003,11" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1 003,11" str_vxodDt="0" str_kontr="Аквілон"/>
+		<str_drive str_isxodKt="994,93" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="994,93" str_vxodDt="0" str_kontr="Автодорожник"/>
+		<str_drive str_isxodKt="985,37" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="985,37" str_vxodDt="0" str_kontr="Пересувна механізована колона"/>
+		<str_drive str_isxodKt="979,20" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="979,20" str_vxodDt="0" str_kontr="МАУП"/>
+		<str_drive str_isxodKt="964,07" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="964,07" str_vxodDt="0" str_kontr="Григорян Вардгес Айрапетович"/>
+		<str_drive str_isxodKt="946,86" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="946,86" str_vxodDt="0" str_kontr="Тимченко А.М."/>
+		<str_drive str_isxodKt="923,72" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="923,72" str_vxodDt="0" str_kontr="КРЕДО-2"/>
+		<str_drive str_isxodKt="909,03" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="909,03" str_vxodDt="0" str_kontr="БУДРЕСУРС"/>
+		<str_drive str_isxodKt="906,14" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="906,14" str_vxodDt="0" str_kontr="Алмі"/>
+		<str_drive str_isxodKt="902,58" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="902,58" str_vxodDt="0" str_kontr="Лакта"/>
+		<str_drive str_isxodKt="873,94" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="873,94" str_vxodDt="0" str_kontr="Бетон Комплекс"/>
+		<str_drive str_isxodKt="870,57" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="870,57" str_vxodDt="0" str_kontr="ФОП Васильков Павло Якович"/>
+		<str_drive str_isxodKt="845,85" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="845,85" str_vxodDt="0" str_kontr="КСМ-ГРУП"/>
+		<str_drive str_isxodKt="822,65" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="822,65" str_vxodDt="0" str_kontr="ВОТЕРІНЖ"/>
+		<str_drive str_isxodKt="801,56" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="801,56" str_vxodDt="0" str_kontr="Петриков С.В."/>
+		<str_drive str_isxodKt="792,83" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="792,83" str_vxodDt="0" str_kontr="ТОВ фірма &quot;Матінка&quot;"/>
+		<str_drive str_isxodKt="790,66" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="790,66" str_vxodDt="0" str_kontr="МЖКБУД (ВБФ)"/>
+		<str_drive str_isxodKt="0" str_isxodDt="785,40" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="785,40" str_kontr="Талісман"/>
+		<str_drive str_isxodKt="772,24" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="772,24" str_vxodDt="0" str_kontr="БУД - ЕКСПРЕС"/>
+		<str_drive str_isxodKt="770,33" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="770,33" str_vxodDt="0" str_kontr="Птахофабрика Київська"/>
+		<str_drive str_isxodKt="735,42" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="735,42" str_vxodDt="0" str_kontr="Ліга ВМ"/>
+		<str_drive str_isxodKt="703,80" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="703,80" str_vxodDt="0" str_kontr="Артбуд Компані"/>
+		<str_drive str_isxodKt="699,69" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="699,69" str_vxodDt="0" str_kontr="Коновалова А.К.0"/>
+		<str_drive str_isxodKt="671,12" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="671,12" str_vxodDt="0" str_kontr="Мікол"/>
+		<str_drive str_isxodKt="649,51" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="649,51" str_vxodDt="0" str_kontr="Глобал-Авто"/>
+		<str_drive str_isxodKt="0" str_isxodDt="641,95" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="641,95" str_kontr="Броварський завод будівельних конструкцій&quot;"/>
+		<str_drive str_isxodKt="636,15" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="636,15" str_vxodDt="0" str_kontr="Броварське шляхово-будівельне управління №50"/>
+		<str_drive str_isxodKt="617,98" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="617,98" str_vxodDt="0" str_kontr="ПК ДОР"/>
+		<str_drive str_isxodKt="0" str_isxodDt="600,12" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="600,12" str_kontr="Товариство з обмеженою відповідальністю &quot;РМ-ІНВЕСТ&quot;"/>
+		<str_drive str_isxodKt="582,15" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="582,15" str_vxodDt="0" str_kontr="ШЕУ Дніпровського району"/>
+		<str_drive str_isxodKt="579,53" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="579,53" str_vxodDt="0" str_kontr="Гончарук В.В."/>
+		<str_drive str_isxodKt="570,84" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="570,84" str_vxodDt="0" str_kontr="СПЕЦІАЛІЗОВАНЕ УПРАВЛІННЯ № 630"/>
+		<str_drive str_isxodKt="550,49" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="550,49" str_vxodDt="0" str_kontr="Марценюк С.П."/>
+		<str_drive str_isxodKt="550,10" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="550,10" str_vxodDt="0" str_kontr="ТОВ ВИРОБНИЧО-КОМЕРЦІЙНА ФІРМА &quot;КОМЕТА&quot; ЛТД0"/>
+		<str_drive str_isxodKt="0" str_isxodDt="542,62" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="542,62" str_kontr="ПАВЛЕНКО В.И"/>
+		<str_drive str_isxodKt="524,89" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="524,89" str_vxodDt="0" str_kontr="Троїцька артіль"/>
+		<str_drive str_isxodKt="511,52" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="511,52" str_vxodDt="0" str_kontr="Сидоренко В.М."/>
+		<str_drive str_isxodKt="493,76" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="493,76" str_vxodDt="0" str_kontr="Будгарант (ПП)"/>
+		<str_drive str_isxodKt="491,68" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="491,68" str_vxodDt="0" str_kontr="Київський насінневий завод"/>
+		<str_drive str_isxodKt="486,29" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="486,29" str_vxodDt="0" str_kontr="Енергоспецпроект"/>
+		<str_drive str_isxodKt="0" str_isxodDt="479,75" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="479,75" str_kontr="Тигрянян Р.Ф."/>
+		<str_drive str_isxodKt="468,36" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="468,36" str_vxodDt="0" str_kontr="МУШ  (ПП)"/>
+		<str_drive str_isxodKt="441,65" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="441,65" str_vxodDt="0" str_kontr="Лік"/>
+		<str_drive str_isxodKt="440,03" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="440,03" str_vxodDt="0" str_kontr="МВМ Шляхбуд"/>
+		<str_drive str_isxodKt="435,27" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="435,27" str_vxodDt="0" str_kontr="КИЇВСЬКИЙ СКЛОТАРНИЙ ЗАВОД"/>
+		<str_drive str_isxodKt="423,63" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="423,63" str_vxodDt="0" str_kontr="Рік"/>
+		<str_drive str_isxodKt="412,42" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="412,42" str_vxodDt="0" str_kontr="Гуль О.Д."/>
+		<str_drive str_isxodKt="408,00" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="408,00" str_vxodDt="0" str_kontr="ТОВ &quot;Центр Гея ЛТД&quot;"/>
+		<str_drive str_isxodKt="407,29" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="407,29" str_vxodDt="0" str_kontr="Севан К.Г.А"/>
+		<str_drive str_isxodKt="393,83" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="393,83" str_vxodDt="0" str_kontr="Сейм-93"/>
+		<str_drive str_isxodKt="364,17" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="364,17" str_vxodDt="0" str_kontr="Юхименко Р.А."/>
+		<str_drive str_isxodKt="345,59" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="345,59" str_vxodDt="0" str_kontr="Григорян Размік Хоренович"/>
+		<str_drive str_isxodKt="336,00" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="336,00" str_vxodDt="0" str_kontr="Оніщенко А.В.0"/>
+		<str_drive str_isxodKt="334,02" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="334,02" str_vxodDt="0" str_kontr="ГРАНІТБУДГРУП"/>
+		<str_drive str_isxodKt="331,02" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="331,02" str_vxodDt="0" str_kontr="Близнюк М.М."/>
+		<str_drive str_isxodKt="0" str_isxodDt="330,82" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="330,82" str_kontr="Король М.Д."/>
+		<str_drive str_isxodKt="330,82" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="330,82" str_vxodDt="0" str_kontr="Давтян А.Г."/>
+		<str_drive str_isxodKt="322,11" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="322,11" str_vxodDt="0" str_kontr="Завод залізобетонних конструкцій №1"/>
+		<str_drive str_isxodKt="314,57" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="314,57" str_vxodDt="0" str_kontr="Мацюк В.М."/>
+		<str_drive str_isxodKt="311,06" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="311,06" str_vxodDt="0" str_kontr="Радченко А.О."/>
+		<str_drive str_isxodKt="307,86" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="307,86" str_vxodDt="0" str_kontr="Будтехсервіс"/>
+		<str_drive str_isxodKt="0" str_isxodDt="303,91" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="303,91" str_kontr="ЛІКО-БУД"/>
+		<str_drive str_isxodKt="300,00" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="300,00" str_vxodDt="0" str_kontr="Яцишин С.І."/>
+		<str_drive str_isxodKt="0" str_isxodDt="291,85" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="291,85" str_kontr="ПОЛІГРАФКНИГА"/>
+		<str_drive str_isxodKt="289,85" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="289,85" str_vxodDt="0" str_kontr="Мінераліс"/>
+		<str_drive str_isxodKt="286,43" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="286,43" str_vxodDt="0" str_kontr="Броварський заводобудівельний комбінат"/>
+		<str_drive str_isxodKt="278,46" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="278,46" str_vxodDt="0" str_kontr="МЕТРО"/>
+		<str_drive str_isxodKt="269,97" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="269,97" str_vxodDt="0" str_kontr="ЕВМ СЕРВІС"/>
+		<str_drive str_isxodKt="268,72" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="268,72" str_vxodDt="0" str_kontr="Печерськжитло"/>
+		<str_drive str_isxodKt="265,54" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="265,54" str_vxodDt="0" str_kontr="Енергорішення"/>
+		<str_drive str_isxodKt="265,53" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="265,53" str_vxodDt="0" str_kontr="Євротранс"/>
+		<str_drive str_isxodKt="264,61" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="264,61" str_vxodDt="0" str_kontr="ТОВ &quot;КВГО-Реконструкція&quot;"/>
+		<str_drive str_isxodKt="261,93" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="261,93" str_vxodDt="0" str_kontr="КОМПАНІЯ БТС"/>
+		<str_drive str_isxodKt="256,12" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="256,12" str_vxodDt="0" str_kontr="Сокирко А.П."/>
+		<str_drive str_isxodKt="250,47" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="250,47" str_vxodDt="0" str_kontr="ПРОМАКТИВГРУП"/>
+		<str_drive str_isxodKt="246,17" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="246,17" str_vxodDt="0" str_kontr="Овсієнко О.Б."/>
+		<str_drive str_isxodKt="245,24" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="245,24" str_vxodDt="0" str_kontr="ФАСТІВ БУДСЕРВІС"/>
+		<str_drive str_isxodKt="242,93" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="242,93" str_vxodDt="0" str_kontr="Крона-Парк"/>
+		<str_drive str_isxodKt="236,52" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="236,52" str_vxodDt="0" str_kontr="Заборний І.М."/>
+		<str_drive str_isxodKt="230,90" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="230,90" str_vxodDt="0" str_kontr="Єфименко С.С."/>
+		<str_drive str_isxodKt="229,39" str_isxodDt="123,74" str_oborKt="0" str_oborDt="0" str_vxodKt="229,39" str_vxodDt="123,74" str_kontr="Укрметртестстандарт"/>
+		<str_drive str_isxodKt="228,90" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="228,90" str_vxodDt="0" str_kontr="Аеробуд"/>
+		<str_drive str_isxodKt="222,86" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="222,86" str_vxodDt="0" str_kontr="Григорян Л.П."/>
+		<str_drive str_isxodKt="211,29" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="211,29" str_vxodDt="0" str_kontr="Приватне підприємство &quot;ПМ &quot;ЕЛЕКТРОСТАРТ&quot;"/>
+		<str_drive str_isxodKt="209,90" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="209,90" str_vxodDt="0" str_kontr="Рудковський М.М."/>
+		<str_drive str_isxodKt="206,19" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="206,19" str_vxodDt="0" str_kontr="Мартинюк В.В."/>
+		<str_drive str_isxodKt="205,24" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="205,24" str_vxodDt="0" str_kontr="Співаков Юрій Володимирович"/>
+		<str_drive str_isxodKt="202,04" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="202,04" str_vxodDt="0" str_kontr="КИЇВМІСЬКСАНТЕХМОНТАЖ"/>
+		<str_drive str_isxodKt="200,14" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="200,14" str_vxodDt="0" str_kontr="Будівництву інженерних мереж №6"/>
+		<str_drive str_isxodKt="197,06" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="197,06" str_vxodDt="0" str_kontr="Будремкомплект"/>
+		<str_drive str_isxodKt="194,95" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="194,95" str_vxodDt="0" str_kontr="Дорошенко Ю.М."/>
+		<str_drive str_isxodKt="192,86" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="192,86" str_vxodDt="0" str_kontr="Веселюк В.М."/>
+		<str_drive str_isxodKt="0" str_isxodDt="189,71" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="189,71" str_kontr="УКРАЇНА ЖИТЛО-СЕРВІС"/>
+		<str_drive str_isxodKt="189,71" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="189,71" str_vxodDt="0" str_kontr="Приватне підприємство &quot;Кабельник-МЛ&quot;"/>
+		<str_drive str_isxodKt="189,70" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="189,70" str_vxodDt="0" str_kontr="ТОВ &quot;ВКФ &quot;ЕНЕРГОДАР&quot;"/>
+		<str_drive str_isxodKt="189,70" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="189,70" str_vxodDt="0" str_kontr="ТОВ &quot;КОМПАНІЯ &quot;ТЕПЛОБУД&quot;"/>
+		<str_drive str_isxodKt="189,68" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="189,68" str_vxodDt="0" str_kontr="ДАРНИЦЬКИЙ ВАГОНОРЕМОНТНИЙ ЗАВОД"/>
+		<str_drive str_isxodKt="0" str_isxodDt="188,74" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="188,74" str_kontr="СПЕЦБУД-МОНОЛІТ"/>
+		<str_drive str_isxodKt="185,57" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="185,57" str_vxodDt="0" str_kontr="РЕМОНТНИК"/>
+		<str_drive str_isxodKt="185,40" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="185,40" str_vxodDt="0" str_kontr="Денисенко В.В."/>
+		<str_drive str_isxodKt="0" str_isxodDt="185,40" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="185,40" str_kontr="Пупишев В.М."/>
+		<str_drive str_isxodKt="185,40" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="185,40" str_vxodDt="0" str_kontr="Хачатрян А.В."/>
+		<str_drive str_isxodKt="185,38" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="185,38" str_vxodDt="0" str_kontr="ТОВ &quot;СПЕЦРЕМБУД&quot;"/>
+		<str_drive str_isxodKt="184,55" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="184,55" str_vxodDt="0" str_kontr="Вага М.В."/>
+		<str_drive str_isxodKt="182,93" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="182,93" str_vxodDt="0" str_kontr="ДАРНИЦЬКИЙ ЗАВОД ЗБК"/>
+		<str_drive str_isxodKt="0" str_isxodDt="182,44" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="182,44" str_kontr="РІАП"/>
+		<str_drive str_isxodKt="0" str_isxodDt="179,75" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="179,75" str_kontr="Астек-Сервіс"/>
+		<str_drive str_isxodKt="177,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="177,01" str_vxodDt="0" str_kontr="Будленд"/>
+		<str_drive str_isxodKt="177,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="177,01" str_vxodDt="0" str_kontr="Пульс"/>
+		<str_drive str_isxodKt="177,00" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="177,00" str_vxodDt="0" str_kontr="Гамалія"/>
+		<str_drive str_isxodKt="175,17" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="175,17" str_vxodDt="0" str_kontr="Коробов А.В."/>
+		<str_drive str_isxodKt="170,81" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="170,81" str_vxodDt="0" str_kontr="Вітер Петро Степанович"/>
+		<str_drive str_isxodKt="168,08" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="168,08" str_vxodDt="0" str_kontr="АЛНІ"/>
+		<str_drive str_isxodKt="0" str_isxodDt="165,86" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="165,86" str_kontr="Амбарцумян Т.Б."/>
+		<str_drive str_isxodKt="165,41" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="165,41" str_vxodDt="0" str_kontr="Брильов С.О."/>
+		<str_drive str_isxodKt="165,40" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="165,40" str_vxodDt="0" str_kontr="Вєс А.Г."/>
+		<str_drive str_isxodKt="0" str_isxodDt="164,96" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="164,96" str_kontr="ТОВ &quot;Техенергобуд&quot;"/>
+		<str_drive str_isxodKt="0" str_isxodDt="164,95" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="164,95" str_kontr="Брежатий С.А."/>
+		<str_drive str_isxodKt="0" str_isxodDt="163,25" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="163,25" str_kontr="Баранов В.В."/>
+		<str_drive str_isxodKt="162,95" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="162,95" str_vxodDt="0" str_kontr="Марченко І.В."/>
+		<str_drive str_isxodKt="161,22" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="161,22" str_vxodDt="0" str_kontr="Вишневий М.П."/>
+		<str_drive str_isxodKt="0" str_isxodDt="159,64" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="159,64" str_kontr="Несвятипасха В.Г."/>
+		<str_drive str_isxodKt="159,31" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="159,31" str_vxodDt="0" str_kontr="Івахнюк Р.М."/>
+		<str_drive str_isxodKt="0" str_isxodDt="159,31" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="159,31" str_kontr="КВК-БІЗНЕСГРУП"/>
+		<str_drive str_isxodKt="159,10" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="159,10" str_vxodDt="0" str_kontr="БМК-ЛІГРУП"/>
+		<str_drive str_isxodKt="0" str_isxodDt="156,70" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="156,70" str_kontr="Варданян Н.В."/>
+		<str_drive str_isxodKt="155,61" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="155,61" str_vxodDt="0" str_kontr="КПД ГРУПП"/>
+		<str_drive str_isxodKt="153,93" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="153,93" str_vxodDt="0" str_kontr="Стецюк А.О."/>
+		<str_drive str_isxodKt="153,93" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="153,93" str_vxodDt="0" str_kontr="Соля Т.І."/>
+		<str_drive str_isxodKt="153,93" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="153,93" str_vxodDt="0" str_kontr="Гаражний кооператив ДИНАМО"/>
+		<str_drive str_isxodKt="0" str_isxodDt="153,92" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="153,92" str_kontr="Аветисян Г.Ф."/>
+		<str_drive str_isxodKt="0" str_isxodDt="152,89" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="152,89" str_kontr="СМАРТІБІЛДІНГ"/>
+		<str_drive str_isxodKt="152,20" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="152,20" str_vxodDt="0" str_kontr="Вечеринюк В.М."/>
+		<str_drive str_isxodKt="147,05" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="147,05" str_vxodDt="0" str_kontr="Литвак Я.В."/>
+		<str_drive str_isxodKt="144,64" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="144,64" str_vxodDt="0" str_kontr="РОСУКРЕНЕРГО"/>
+		<str_drive str_isxodKt="141,24" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="141,24" str_vxodDt="0" str_kontr="Євдокимов В.В."/>
+		<str_drive str_isxodKt="0" str_isxodDt="140,82" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="140,82" str_kontr="АЛТЕО"/>
+		<str_drive str_isxodKt="0" str_isxodDt="139,93" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="139,93" str_kontr="Україна-Реставрація"/>
+		<str_drive str_isxodKt="139,93" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="139,93" str_vxodDt="0" str_kontr="Денисюк О.В."/>
+		<str_drive str_isxodKt="137,58" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="137,58" str_vxodDt="0" str_kontr="Якубин С.В."/>
+		<str_drive str_isxodKt="0" str_isxodDt="129,24" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="129,24" str_kontr="Москаленко Р. М."/>
+		<str_drive str_isxodKt="125,94" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="125,94" str_vxodDt="0" str_kontr="Мхитарян С.М."/>
+		<str_drive str_isxodKt="123,59" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="123,59" str_vxodDt="0" str_kontr="Вітом"/>
+		<str_drive str_isxodKt="0" str_isxodDt="123,59" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="123,59" str_kontr="Халоян О.Г."/>
+		<str_drive str_isxodKt="118,52" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="118,52" str_vxodDt="0" str_kontr="ЄВРОЕНЕРГІЯ"/>
+		<str_drive str_isxodKt="0" str_isxodDt="111,71" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="111,71" str_kontr="Мойсєєнко О.В."/>
+		<str_drive str_isxodKt="109,43" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="109,43" str_vxodDt="0" str_kontr="Вороньківська сільська рада"/>
+		<str_drive str_isxodKt="107,49" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="107,49" str_vxodDt="0" str_kontr="Вертецький В. А."/>
+		<str_drive str_isxodKt="0" str_isxodDt="105,43" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="105,43" str_kontr="Подставин И.Е."/>
+		<str_drive str_isxodKt="0" str_isxodDt="105,43" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="105,43" str_kontr="ХРЯПА О.І"/>
+		<str_drive str_isxodKt="100,49" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="100,49" str_vxodDt="0" str_kontr="ТОВ Фірма &quot;Омега&quot;"/>
+		<str_drive str_isxodKt="0" str_isxodDt="100,34" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="100,34" str_kontr="ТДС-С"/>
+		<str_drive str_isxodKt="100,00" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="100,00" str_vxodDt="0" str_kontr="Гребенюк Б.Н."/>
+		<str_drive str_isxodKt="95,89" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="95,89" str_vxodDt="0" str_kontr="ГОЛД-ТРЕЙДІНГ ГРУП"/>
+		<str_drive str_isxodKt="95,13" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="95,13" str_vxodDt="0" str_kontr="Іванюк О.Ф."/>
+		<str_drive str_isxodKt="95,10" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="95,10" str_vxodDt="0" str_kontr="ТОВ Підпр.матер.техн.забезп.та ремонту&quot;СПЕЦ-СЕРВІС"/>
+		<str_drive str_isxodKt="0" str_isxodDt="94,85" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="94,85" str_kontr="Куликов М.М."/>
+		<str_drive str_isxodKt="92,77" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="92,77" str_vxodDt="0" str_kontr="МОНТАЖСПЕЦБУД"/>
+		<str_drive str_isxodKt="92,75" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="92,75" str_vxodDt="0" str_kontr="СКАЙ--МЕД"/>
+		<str_drive str_isxodKt="92,75" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="92,75" str_vxodDt="0" str_kontr="УЖГ Дарницького району"/>
+		<str_drive str_isxodKt="0" str_isxodDt="92,75" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="92,75" str_kontr="&quot;БК&quot;БУДТРАНССЕРВІС&quot;"/>
+		<str_drive str_isxodKt="92,63" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="92,63" str_vxodDt="0" str_kontr="САМСА"/>
+		<str_drive str_isxodKt="0" str_isxodDt="91,92" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="91,92" str_kontr="Солум"/>
+		<str_drive str_isxodKt="90,11" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="90,11" str_vxodDt="0" str_kontr="БУДРЕМЛЮКС-С"/>
+		<str_drive str_isxodKt="90,09" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="90,09" str_vxodDt="0" str_kontr="Мошенський В.І."/>
+		<str_drive str_isxodKt="89,43" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="89,43" str_vxodDt="0" str_kontr="АСП-ТРАНСБУД"/>
+		<str_drive str_isxodKt="89,11" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="89,11" str_vxodDt="0" str_kontr="Мавродій О.С."/>
+		<str_drive str_isxodKt="88,10" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="88,10" str_vxodDt="0" str_kontr="Здоровець Віктор Михайлович"/>
+		<str_drive str_isxodKt="87,81" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="87,81" str_vxodDt="0" str_kontr="Віайті"/>
+		<str_drive str_isxodKt="0" str_isxodDt="87,07" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="87,07" str_kontr="Олкон"/>
+		<str_drive str_isxodKt="87,05" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="87,05" str_vxodDt="0" str_kontr="ДОЛИНІВСЬКЕ"/>
+		<str_drive str_isxodKt="86,36" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="86,36" str_vxodDt="0" str_kontr="Левін М.І."/>
+		<str_drive str_isxodKt="0" str_isxodDt="86,31" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="86,31" str_kontr="Патлавський І.В."/>
+		<str_drive str_isxodKt="84,08" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="84,08" str_vxodDt="0" str_kontr="Ломага О.С."/>
+		<str_drive str_isxodKt="0" str_isxodDt="84,08" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="84,08" str_kontr="Коваленко М.О."/>
+		<str_drive str_isxodKt="84,00" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="84,00" str_vxodDt="0" str_kontr="Ліхтер М. І."/>
+		<str_drive str_isxodKt="82,93" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="82,93" str_vxodDt="0" str_kontr="ТОВ &quot;Управл.по буд.тунел.і підз.споруд спецпризнач"/>
+		<str_drive str_isxodKt="82,71" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="82,71" str_vxodDt="0" str_kontr="Рудас Павло Павлович"/>
+		<str_drive str_isxodKt="82,70" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="82,70" str_vxodDt="0" str_kontr="Луконін М.І."/>
+		<str_drive str_isxodKt="82,70" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="82,70" str_vxodDt="0" str_kontr="Ільїн В.М."/>
+		<str_drive str_isxodKt="82,70" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="82,70" str_vxodDt="0" str_kontr="Купченко О.М."/>
+		<str_drive str_isxodKt="82,70" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="82,70" str_vxodDt="0" str_kontr="Карабчук Р.В."/>
+		<str_drive str_isxodKt="82,70" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="82,70" str_vxodDt="0" str_kontr="Сидоров І.П."/>
+		<str_drive str_isxodKt="82,51" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="82,51" str_vxodDt="0" str_kontr="Овсепян А.Е."/>
+		<str_drive str_isxodKt="82,50" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="82,50" str_vxodDt="0" str_kontr="Веремієв І.Ф."/>
+		<str_drive str_isxodKt="82,49" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="82,49" str_vxodDt="0" str_kontr="Мухомор В.Г."/>
+		<str_drive str_isxodKt="80,80" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="80,80" str_vxodDt="0" str_kontr="Універсал-Атлант"/>
+		<str_drive str_isxodKt="79,83" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="79,83" str_vxodDt="0" str_kontr="Піковер Ю.М."/>
+		<str_drive str_isxodKt="79,65" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="79,65" str_vxodDt="0" str_kontr="Назарчук М.П."/>
+		<str_drive str_isxodKt="79,65" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="79,65" str_vxodDt="0" str_kontr="Гордієнко С.І."/>
+		<str_drive str_isxodKt="76,97" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="76,97" str_vxodDt="0" str_kontr="Карапетян А.Л."/>
+		<str_drive str_isxodKt="0" str_isxodDt="76,97" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="76,97" str_kontr="Джим О.М."/>
+		<str_drive str_isxodKt="76,96" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="76,96" str_vxodDt="0" str_kontr="СЛ-2000"/>
+		<str_drive str_isxodKt="76,96" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="76,96" str_vxodDt="0" str_kontr="Ярмак С.І."/>
+		<str_drive str_isxodKt="76,96" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="76,96" str_vxodDt="0" str_kontr="Самойленко Д.Б."/>
+		<str_drive str_isxodKt="76,87" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="76,87" str_vxodDt="0" str_kontr="Терентьєв А.М."/>
+		<str_drive str_isxodKt="74,99" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="74,99" str_vxodDt="0" str_kontr="Ільницький С.В."/>
+		<str_drive str_isxodKt="74,98" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="74,98" str_vxodDt="0" str_kontr="Україна (БПФ)"/>
+		<str_drive str_isxodKt="0" str_isxodDt="74,95" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="74,95" str_kontr="ГРІН БІЛДІНГ"/>
+		<str_drive str_isxodKt="72,62" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="72,62" str_vxodDt="0" str_kontr="Жарков О.М."/>
+		<str_drive str_isxodKt="0" str_isxodDt="71,56" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="71,56" str_kontr="Острян П.С."/>
+		<str_drive str_isxodKt="71,50" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="71,50" str_vxodDt="0" str_kontr="Калініченко А.В."/>
+		<str_drive str_isxodKt="69,97" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="69,97" str_vxodDt="0" str_kontr="Компанець С.О."/>
+		<str_drive str_isxodKt="69,97" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="69,97" str_vxodDt="0" str_kontr="Руденко М.І."/>
+		<str_drive str_isxodKt="69,96" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="69,96" str_vxodDt="0" str_kontr="Маташ В.М."/>
+		<str_drive str_isxodKt="0" str_isxodDt="69,96" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="69,96" str_kontr="Погосян Г.О."/>
+		<str_drive str_isxodKt="69,96" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="69,96" str_vxodDt="0" str_kontr="Ежель С.М."/>
+		<str_drive str_isxodKt="0" str_isxodDt="69,96" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="69,96" str_kontr="Погосян Р.О."/>
+		<str_drive str_isxodKt="5,89" str_isxodDt="69,95" str_oborKt="0" str_oborDt="0" str_vxodKt="5,89" str_vxodDt="69,95" str_kontr="Петренко В.О."/>
+		<str_drive str_isxodKt="69,08" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="69,08" str_vxodDt="0" str_kontr="Слободенюк В.П."/>
+		<str_drive str_isxodKt="68,68" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="68,68" str_vxodDt="0" str_kontr="БУДТРАНСІНВЕСТ-ГРУП НТС"/>
+		<str_drive str_isxodKt="0" str_isxodDt="68,41" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="68,41" str_kontr="Федорчук Г.В."/>
+		<str_drive str_isxodKt="68,41" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="68,41" str_vxodDt="0" str_kontr="Байконур"/>
+		<str_drive str_isxodKt="66,43" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="66,43" str_vxodDt="0" str_kontr="Портянкін Р.Л."/>
+		<str_drive str_isxodKt="65,42" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="65,42" str_vxodDt="0" str_kontr="БУДВЕСТ УКРАЇНА"/>
+		<str_drive str_isxodKt="0" str_isxodDt="65,41" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="65,41" str_kontr="Бориспільський комбінат буд .матеріалів"/>
+		<str_drive str_isxodKt="63,08" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="63,08" str_vxodDt="0" str_kontr="Київавтошляхміст"/>
+		<str_drive str_isxodKt="61,87" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="61,87" str_vxodDt="0" str_kontr="Олійник Ю.А."/>
+		<str_drive str_isxodKt="61,79" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="61,79" str_vxodDt="0" str_kontr="Київметробуд   БМУ-6"/>
+		<str_drive str_isxodKt="61,79" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="61,79" str_vxodDt="0" str_kontr="ВП Астрея"/>
+		<str_drive str_isxodKt="59,60" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="59,60" str_vxodDt="0" str_kontr="Бєлов С.А."/>
+		<str_drive str_isxodKt="59,23" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="59,23" str_vxodDt="0" str_kontr="ПРАГМАТ Т"/>
+		<str_drive str_isxodKt="58,08" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="58,08" str_vxodDt="0" str_kontr="Ковтунець І.А."/>
+		<str_drive str_isxodKt="57,83" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="57,83" str_vxodDt="0" str_kontr="СУЧАСНІ БУДІВЕЛЬНІ РІШЕННЯ"/>
+		<str_drive str_isxodKt="57,72" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="57,72" str_vxodDt="0" str_kontr="БІСАБІ"/>
+		<str_drive str_isxodKt="57,14" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="57,14" str_vxodDt="0" str_kontr="Укрспецмонтаж Інвест"/>
+		<str_drive str_isxodKt="57,07" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="57,07" str_vxodDt="0" str_kontr="Ющенко С.В."/>
+		<str_drive str_isxodKt="0" str_isxodDt="55,67" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="55,67" str_kontr="АСФАЛЬТБУД"/>
+		<str_drive str_isxodKt="54,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="54,01" str_vxodDt="0" str_kontr="РІАЛ ГРУП І КО"/>
+		<str_drive str_isxodKt="54,00" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="54,00" str_vxodDt="0" str_kontr="Притула А.П."/>
+		<str_drive str_isxodKt="0" str_isxodDt="53,79" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="53,79" str_kontr="ЯГУАР (БПК)"/>
+		<str_drive str_isxodKt="53,34" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="53,34" str_vxodDt="0" str_kontr="ІМШ"/>
+		<str_drive str_isxodKt="53,26" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="53,26" str_vxodDt="0" str_kontr="Аккорд -2006"/>
+		<str_drive str_isxodKt="53,04" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="53,04" str_vxodDt="0" str_kontr="Компанія Європа-Буд"/>
+		<str_drive str_isxodKt="50,43" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="50,43" str_vxodDt="0" str_kontr="Ботанічний сад ім. Гришка НАН України"/>
+		<str_drive str_isxodKt="49,41" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="49,41" str_vxodDt="0" str_kontr="Гончарук В.І."/>
+		<str_drive str_isxodKt="49,37" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="49,37" str_vxodDt="0" str_kontr="СПЕЦБУДСЕРВІС"/>
+		<str_drive str_isxodKt="48,69" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="48,69" str_vxodDt="0" str_kontr="Правда С.Ф."/>
+		<str_drive str_isxodKt="48,68" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="48,68" str_vxodDt="0" str_kontr="Приходько В.В."/>
+		<str_drive str_isxodKt="47,94" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="47,94" str_vxodDt="0" str_kontr="ІВІТ"/>
+		<str_drive str_isxodKt="0" str_isxodDt="45,97" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="45,97" str_kontr="Київелектромонтаж"/>
+		<str_drive str_isxodKt="45,66" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="45,66" str_vxodDt="0" str_kontr="Вичиринюк В.М."/>
+		<str_drive str_isxodKt="45,66" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="45,66" str_vxodDt="0" str_kontr="Шинкаренко С.П."/>
+		<str_drive str_isxodKt="45,00" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="45,00" str_vxodDt="0" str_kontr="АГРО ЛТД"/>
+		<str_drive str_isxodKt="44,79" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="44,79" str_vxodDt="0" str_kontr="Аларіт Трейд"/>
+		<str_drive str_isxodKt="0" str_isxodDt="43,37" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="43,37" str_kontr="Демидюк П.Ф."/>
+		<str_drive str_isxodKt="42,92" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="42,92" str_vxodDt="0" str_kontr="Рудківський А.М."/>
+		<str_drive str_isxodKt="42,72" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="42,72" str_vxodDt="0" str_kontr="ВІТАНД"/>
+		<str_drive str_isxodKt="40,58" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="40,58" str_vxodDt="0" str_kontr="Сулима В.П."/>
+		<str_drive str_isxodKt="40,31" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="40,31" str_vxodDt="0" str_kontr="ТОВ &quot;Компанія &quot;Юг-Інвест&quot;"/>
+		<str_drive str_isxodKt="38,32" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="38,32" str_vxodDt="0" str_kontr="ШБУ № 3 ПАТ &quot;ТРАКТ&quot;"/>
+		<str_drive str_isxodKt="37,53" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="37,53" str_vxodDt="0" str_kontr="Трініон"/>
+		<str_drive str_isxodKt="37,13" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="37,13" str_vxodDt="0" str_kontr="Бабенко Я.О."/>
+		<str_drive str_isxodKt="35,56" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="35,56" str_vxodDt="0" str_kontr="УКРГАЗКОМПЛЕКТ"/>
+		<str_drive str_isxodKt="35,52" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="35,52" str_vxodDt="0" str_kontr="Зубрицький К.Р."/>
+		<str_drive str_isxodKt="35,38" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="35,38" str_vxodDt="0" str_kontr="Арсенал (казенне)"/>
+		<str_drive str_isxodKt="34,58" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="34,58" str_vxodDt="0" str_kontr="Сучасні Будівельні Рішення Будівельна Компанія"/>
+		<str_drive str_isxodKt="34,25" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="34,25" str_vxodDt="0" str_kontr="Петрухін А.С."/>
+		<str_drive str_isxodKt="33,75" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="33,75" str_vxodDt="0" str_kontr="ТОВ &quot;ІТГ &quot;Інтек-газ&quot;"/>
+		<str_drive str_isxodKt="0" str_isxodDt="33,00" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="33,00" str_kontr="ВАСИЛЬЕВ В.В"/>
+		<str_drive str_isxodKt="32,88" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="32,88" str_vxodDt="0" str_kontr="ТОВ &quot;СТЕН лтд&quot;"/>
+		<str_drive str_isxodKt="31,39" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="31,39" str_vxodDt="0" str_kontr="Армстронг Колсантинг"/>
+		<str_drive str_isxodKt="30,77" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="30,77" str_vxodDt="0" str_kontr="Вечера І.М."/>
+		<str_drive str_isxodKt="30,00" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="30,00" str_vxodDt="0" str_kontr="Ходін Роман Григорович"/>
+		<str_drive str_isxodKt="0" str_isxodDt="29,70" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="29,70" str_kontr="НЕЧЕПОРЕНКО А.В."/>
+		<str_drive str_isxodKt="27,63" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="27,63" str_vxodDt="0" str_kontr="Булєєв П.В."/>
+		<str_drive str_isxodKt="26,63" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="26,63" str_vxodDt="0" str_kontr="Горностаєв О.В."/>
+		<str_drive str_isxodKt="25,74" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="25,74" str_vxodDt="0" str_kontr="Дмитренко Н.Т."/>
+		<str_drive str_isxodKt="25,37" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="25,37" str_vxodDt="0" str_kontr="Кушнарева В.О."/>
+		<str_drive str_isxodKt="24,86" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="24,86" str_vxodDt="0" str_kontr="Островершук В.І."/>
+		<str_drive str_isxodKt="0" str_isxodDt="24,34" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="24,34" str_kontr="КАСКАДБУДСЕРВІС"/>
+		<str_drive str_isxodKt="24,10" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="24,10" str_vxodDt="0" str_kontr="Копач А.В."/>
+		<str_drive str_isxodKt="22,82" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="22,82" str_vxodDt="0" str_kontr="Доридор В.П."/>
+		<str_drive str_isxodKt="21,45" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="21,45" str_vxodDt="0" str_kontr="Демеденко Г.О."/>
+		<str_drive str_isxodKt="0" str_isxodDt="20,86" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="20,86" str_kontr="Кіракосян М.А."/>
+		<str_drive str_isxodKt="20,29" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="20,29" str_vxodDt="0" str_kontr="Ульшин В.І."/>
+		<str_drive str_isxodKt="0" str_isxodDt="20,12" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="20,12" str_kontr="Тютюник С.Я."/>
+		<str_drive str_isxodKt="20,02" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="20,02" str_vxodDt="0" str_kontr="Поліщук В.Є."/>
+		<str_drive str_isxodKt="20,00" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="20,00" str_vxodDt="0" str_kontr="Дзингаль П.Н."/>
+		<str_drive str_isxodKt="20,00" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="20,00" str_vxodDt="0" str_kontr="Григор`євих Є.Б."/>
+		<str_drive str_isxodKt="20,00" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="20,00" str_vxodDt="0" str_kontr="Хом&quot;як С.В."/>
+		<str_drive str_isxodKt="19,83" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="19,83" str_vxodDt="0" str_kontr="Білий О.І."/>
+		<str_drive str_isxodKt="19,38" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="19,38" str_vxodDt="0" str_kontr="ЦЕНТРЕНЕРГОБУД"/>
+		<str_drive str_isxodKt="18,17" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="18,17" str_vxodDt="0" str_kontr="Добровольський Л.В."/>
+		<str_drive str_isxodKt="18,00" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="18,00" str_vxodDt="0" str_kontr="Дрозд А.Л."/>
+		<str_drive str_isxodKt="17,98" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="17,98" str_vxodDt="0" str_kontr="Атем"/>
+		<str_drive str_isxodKt="0" str_isxodDt="16,94" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="16,94" str_kontr="ІНЖБУД-ПІДРЯД"/>
+		<str_drive str_isxodKt="16,63" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="16,63" str_vxodDt="0" str_kontr="КЖБК"/>
+		<str_drive str_isxodKt="16,50" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="16,50" str_vxodDt="0" str_kontr="Пупков С.В."/>
+		<str_drive str_isxodKt="16,23" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="16,23" str_vxodDt="0" str_kontr="Нефедов В.М.0"/>
+		<str_drive str_isxodKt="16,22" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="16,22" str_vxodDt="0" str_kontr="Кислиця В.О."/>
+		<str_drive str_isxodKt="15,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="15,01" str_vxodDt="0" str_kontr="Круцик Ю.В."/>
+		<str_drive str_isxodKt="14,62" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="14,62" str_vxodDt="0" str_kontr="Савранський М.М."/>
+		<str_drive str_isxodKt="14,45" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="14,45" str_vxodDt="0" str_kontr="Равлюк М.В."/>
+		<str_drive str_isxodKt="13,81" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="13,81" str_vxodDt="0" str_kontr="Петрівський В.В."/>
+		<str_drive str_isxodKt="13,81" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="13,81" str_vxodDt="0" str_kontr="Кисільський В.М."/>
+		<str_drive str_isxodKt="12,69" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="12,69" str_vxodDt="0" str_kontr="Піддячий О.В."/>
+		<str_drive str_isxodKt="0" str_isxodDt="12,68" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="12,68" str_kontr="Бабенко Л.О."/>
+		<str_drive str_isxodKt="12,33" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="12,33" str_vxodDt="0" str_kontr="ТОВ &quot;Фінансово-будівельна компанія &quot;Пагода&quot;"/>
+		<str_drive str_isxodKt="12,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="12,01" str_vxodDt="0" str_kontr="Житлове ремонтно-експлуатац.управління"/>
+		<str_drive str_isxodKt="11,41" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="11,41" str_vxodDt="0" str_kontr="Пархоменко С.М."/>
+		<str_drive str_isxodKt="11,41" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="11,41" str_vxodDt="0" str_kontr="Слободяник М.І."/>
+		<str_drive str_isxodKt="10,28" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="10,28" str_vxodDt="0" str_kontr="Семегайло В.С."/>
+		<str_drive str_isxodKt="10,10" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="10,10" str_vxodDt="0" str_kontr="Дегтярьов Р.М."/>
+		<str_drive str_isxodKt="10,00" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="10,00" str_vxodDt="0" str_kontr="Кас&quot;ян Роман Миколайович"/>
+		<str_drive str_isxodKt="10,00" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="10,00" str_vxodDt="0" str_kontr="Карпенко С.А."/>
+		<str_drive str_isxodKt="9,21" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="9,21" str_vxodDt="0" str_kontr="Печерська Брама"/>
+		<str_drive str_isxodKt="8,87" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="8,87" str_vxodDt="0" str_kontr="Бурда А.В."/>
+		<str_drive str_isxodKt="8,37" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="8,37" str_vxodDt="0" str_kontr="СУ630"/>
+		<str_drive str_isxodKt="8,12" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="8,12" str_vxodDt="0" str_kontr="Клименко М.Г."/>
+		<str_drive str_isxodKt="7,65" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="7,65" str_vxodDt="0" str_kontr="Алєксєєв А.Ю."/>
+		<str_drive str_isxodKt="6,47" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="6,47" str_vxodDt="0" str_kontr="Укрмонтажбуд-4"/>
+		<str_drive str_isxodKt="6,34" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="6,34" str_vxodDt="0" str_kontr="Таценко О.П."/>
+		<str_drive str_isxodKt="5,08" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="5,08" str_vxodDt="0" str_kontr="Симончук М.М."/>
+		<str_drive str_isxodKt="3,80" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="3,80" str_vxodDt="0" str_kontr="Маслов Р.К."/>
+		<str_drive str_isxodKt="3,46" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="3,46" str_vxodDt="0" str_kontr="МОНТАЖЛЕГМАШ"/>
+		<str_drive str_isxodKt="3,05" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="3,05" str_vxodDt="0" str_kontr="Коваленко В.А."/>
+		<str_drive str_isxodKt="2,94" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="2,94" str_vxodDt="0" str_kontr="Агро"/>
+		<str_drive str_isxodKt="2,70" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="2,70" str_vxodDt="0" str_kontr="Інжбуд (ПБК)"/>
+		<str_drive str_isxodKt="2,53" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="2,53" str_vxodDt="0" str_kontr="Гармаш М.І."/>
+		<str_drive str_isxodKt="2,05" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="2,05" str_vxodDt="0" str_kontr="ХАРКІВСПЕЦБУДМЕХАНІЗАЦІЯ-7"/>
+		<str_drive str_isxodKt="1,90" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1,90" str_vxodDt="0" str_kontr="Сас О.М."/>
+		<str_drive str_isxodKt="1,70" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1,70" str_vxodDt="0" str_kontr="Київське автотранспортне підприємство"/>
+		<str_drive str_isxodKt="0" str_isxodDt="1,44" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="1,44" str_kontr="Гукун Ю.В."/>
+		<str_drive str_isxodKt="1,14" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1,14" str_vxodDt="0" str_kontr="ТОВ &quot;Фастівагрошляхбуд&quot;"/>
+		<str_drive str_isxodKt="1,02" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1,02" str_vxodDt="0" str_kontr="Мазагаєв Ю.М."/>
+		<str_drive str_isxodKt="1,00" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="1,00" str_vxodDt="0" str_kontr="Макіч Акобян"/>
+		<str_drive str_isxodKt="0,91" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,91" str_vxodDt="0" str_kontr="Дударець А.Л."/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,63" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,63" str_kontr="ТБС"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,48" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,48" str_kontr="Пузирев Г.В."/>
+		<str_drive str_isxodKt="0,44" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,44" str_vxodDt="0" str_kontr="Оганян Г.М."/>
+		<str_drive str_isxodKt="0,43" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,43" str_vxodDt="0" str_kontr="Укрдорресурс"/>
+		<str_drive str_isxodKt="0,40" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,40" str_vxodDt="0" str_kontr="Буддор"/>
+		<str_drive str_isxodKt="0,29" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,29" str_vxodDt="0" str_kontr="Хмарський О.І."/>
+		<str_drive str_isxodKt="0,29" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,29" str_vxodDt="0" str_kontr="Альфа-Іміджбуд"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,23" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,23" str_kontr="Ерідан   ф-ма"/>
+		<str_drive str_isxodKt="0,20" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,20" str_vxodDt="0" str_kontr="Ремедіос Р.Х."/>
+		<str_drive str_isxodKt="0,20" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,20" str_vxodDt="0" str_kontr="Ніколаєнко В.М."/>
+		<str_drive str_isxodKt="0,20" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,20" str_vxodDt="0" str_kontr="Гринчак І.І."/>
+		<str_drive str_isxodKt="0,17" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,17" str_vxodDt="0" str_kontr="Аквілон-СК"/>
+		<str_drive str_isxodKt="0,16" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,16" str_vxodDt="0" str_kontr="ГРАНДІОРА"/>
+		<str_drive str_isxodKt="0,15" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,15" str_vxodDt="0" str_kontr="Михайлов Д.А."/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,14" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,14" str_kontr="ПАРТНЕР"/>
+		<str_drive str_isxodKt="0,11" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,11" str_vxodDt="0" str_kontr="АМБАРЦУМЯН РАФІК АНДРОНІКОВИЧ"/>
+		<str_drive str_isxodKt="0,11" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,11" str_vxodDt="0" str_kontr="Комспек"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,10" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,10" str_kontr="Хлистун А.Я."/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,10" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,10" str_kontr="Скоростецький В.В."/>
+		<str_drive str_isxodKt="0,10" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,10" str_vxodDt="0" str_kontr="Коропецький І.А."/>
+		<str_drive str_isxodKt="0,07" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,07" str_vxodDt="0" str_kontr="ЄВРОМОДУЛЬ-ЛТД   ( БК)"/>
+		<str_drive str_isxodKt="0,07" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,07" str_vxodDt="0" str_kontr="Панок О.П."/>
+		<str_drive str_isxodKt="0,06" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,06" str_vxodDt="0" str_kontr="Азанков О.М."/>
+		<str_drive str_isxodKt="0,06" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,06" str_vxodDt="0" str_kontr="Спецрембуд"/>
+		<str_drive str_isxodKt="0,06" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,06" str_vxodDt="0" str_kontr="ПІВДЕНЗАХІДТРАНСБУД"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,06" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,06" str_kontr="ДОРСТРОЙ"/>
+		<str_drive str_isxodKt="0,05" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,05" str_vxodDt="0" str_kontr="ВТ Євростандарт"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,04" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,04" str_kontr="Миргородський Р.В."/>
+		<str_drive str_isxodKt="0,04" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,04" str_vxodDt="0" str_kontr="Київміськбуд-3"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,04" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,04" str_kontr="Акопян Т.А."/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,04" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,04" str_kontr="Оріон"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,03" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,03" str_kontr="Савченко С.О."/>
+		<str_drive str_isxodKt="0,03" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,03" str_vxodDt="0" str_kontr="ПРОМТЕХСЕРВІС"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,03" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,03" str_kontr="УТРИМАННЮ ЗЕЛЕНИХ НАСАДЖЕНЬ  ГОЛОСІЇВСЬКОГО РАЙОНУ М.КИЄВА"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,03" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,03" str_kontr="ПЕРСПЕКТИВА (БМК)"/>
+		<str_drive str_isxodKt="0,03" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,03" str_vxodDt="0" str_kontr="ТОВ &quot;НВПБО&quot;Укртеплобуд&quot;"/>
+		<str_drive str_isxodKt="0,03" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,03" str_vxodDt="0" str_kontr="Київавтотранссервіс"/>
+		<str_drive str_isxodKt="0,03" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,03" str_vxodDt="0" str_kontr="СТЕФАН ЛТД"/>
+		<str_drive str_isxodKt="0,03" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,03" str_vxodDt="0" str_kontr="Будімпекс Стоун Груп"/>
+		<str_drive str_isxodKt="0,03" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,03" str_vxodDt="0" str_kontr="Самофал Є.В."/>
+		<str_drive str_isxodKt="0,03" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,03" str_vxodDt="0" str_kontr="ЛАЙМ СОЛЮШІН"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,02" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,02" str_kontr="Ткаченко В.П."/>
+		<str_drive str_isxodKt="0,02" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,02" str_vxodDt="0" str_kontr="Фещенко В. М."/>
+		<str_drive str_isxodKt="0,02" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,02" str_vxodDt="0" str_kontr="МЖК-1"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,02" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,02" str_kontr="АВТОМОБІЛЬНІ ДОРОГИ УКРАЇНИ ( Ф-я Бориспільське РДУ)"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,02" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,02" str_kontr="АЛЬФАГРУП"/>
+		<str_drive str_isxodKt="0,02" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,02" str_vxodDt="0" str_kontr="Циганок М.В."/>
+		<str_drive str_isxodKt="0,02" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,02" str_vxodDt="0" str_kontr="Київміськбуд-5"/>
+		<str_drive str_isxodKt="0,02" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,02" str_vxodDt="0" str_kontr="ТОВАРИСТВО СТАРОДРЕВЛЯН"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="МЕГА БУД ІНВЕСТ"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Оганян А.А."/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="КАПІТАЛ СПЕЦРЕСУРС"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Ігнатуша І.І."/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="ЛИПКИЖИТЛОСЕРВІС"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="АЛВЕЙ"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="Самофал Валерій Васильович - ФОП"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="ІНВЕСТКОМБУД"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="ШЕУ Святошинського району"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="ШЕУ Оболонського району"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="УКРПРОМДОРБУД"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="Кедровський Олександр Олегович"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="Туманов Микола Михайлович"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Амбарцумян Гарік Рафікович"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="УКРАВТОБАМ БІЛДІНГ ( 38611732 )"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="Двірко В.М."/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="ПРОМТЕХСИСТЕМИ"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="АРХІТЕКТУРНА ПРОЕКТНА МАЙСТЕРНЯ ЄРМОЛЬЄВА"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="АЛЬЯНС БУДІВЕЛЬНИКІВ УКРАЇНИ"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="ТРІАДА"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="АЛЬВАІР БУД"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="МВМ"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="АВТОСЕРВІС"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="СПЕЦКОМУНБУД"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="Босенко Є.А."/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="Промінь"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="Технології ремонту транспортної інфраструктури"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Оганисян У.П."/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Обіо"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="ЦЕНТРАЛЬНИЙ МАТЕРІАЛЬНИЙ СКЛАД  ГК-ЕУ МОУ"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="Марчук Р.М."/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Воскобойник Данило Олександрович"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="МЛМ - БУД"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="ПОЛІГРАФІЧНИЙ КОМБІНАТ ( УКРАЇНА )"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="СВЯТО-ПАНТЕЛЕЙМОНІВСЬКИЙ МОНАСТИР У ФЕОФАНІЇ"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="ЮНІГРАН"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="КРАЙ-БУД"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Автобудкомплекс-К"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="МН-СТРОЙ"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="Орищенко М.К."/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Рошен"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Будівельні матеріали та технології"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="Лісова"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Сільінжшляхбуд"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="ШЕУ Дарницького р-ну"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Леонтьєв А. Н."/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Омельяненко О.О"/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="ЖИТОМИРСЬКИЙ ГРАНІТ"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Сабов"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Фасад ХХ/"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="МТД"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="ТЕПЛОЕНЕРГОМОНТАЖ"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Атікем"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Альтаір"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Київхліб Булочно-кондитерський комбінат"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Носенко О.І."/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="Гудзь В.В."/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="Підземсервіс"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Експоцентр України"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="СИНЕРГІЯ БУД"/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Мироненко В.В."/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="Соколюк О.П."/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Костюченко П.Д."/>
+		<str_drive str_isxodKt="0,01" str_isxodDt="0" str_oborKt="0" str_oborDt="0" str_vxodKt="0,01" str_vxodDt="0" str_kontr="Горват Ю.Д."/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="Руденок О.В."/>
+		<str_drive str_isxodKt="0" str_isxodDt="0,01" str_oborKt="0" str_oborDt="0" str_vxodKt="0" str_vxodDt="0,01" str_kontr="Чеговець О.А."/>
+	</Svod>
+</RaschProd>

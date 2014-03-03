@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from functools import wraps
-from flask import Flask, g, session, redirect, flash,  url_for, escape, request, Response
-from flask import render_template
-from flask import Markup
+from flask import Flask, g, session, redirect, flash,  url_for, escape, request, Response, render_template, Markup
 import time
 from datetime import datetime
 from common.xparcer import Parcer
 from common.html import html
 import locale
-from forms import LoginForm
 from common.tools import Users
+
+from views.test import account_api
+from views.login import login
 
 locale.setlocale(locale.LC_ALL, '')
 
@@ -20,28 +20,13 @@ u = Users()
 
 app = Flask(__name__)
 app.config.from_object('config')
+app.register_blueprint(account_api)
+app.register_blueprint(login)
 
 @app.before_request
 def before_request():
     g.user = None
 
-@app.route('/login', methods = ['GET', 'POST'])
-def login():
-    form = LoginForm()
-    if form.validate_on_submit():
-        profile = u.get_user(form.openid.data)
-        hashed_password = ""
-        if profile.has_key('password'):
-            hashed_password = profile['password']
-        entered_password = u.make_digest(form.password.data)
-        if form.openid.data == profile['login'] and hashed_password == entered_password:
-            session['username'] = form.openid.data
-            return redirect('/')
-        else:
-            return redirect('/login')
-    return render_template('login.html', 
-        title = 'Sign In',
-        form = form)
 
 
 

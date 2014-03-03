@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SOperativka>
+	<SOper SOper_konost="29 302,833" SOper_rashod="0" SOper_prihod="0" SOper_nachost="29 302,833">
+		<str_drive str_konost="257,303" str_rashod="0" str_prihod="0" str_nachost="257,303" str_sklad="Склад сировини та матеріалів" str_nom="Вапно комове                   "/>
+		<str_drive str_konost="7 865,069" str_rashod="0" str_prihod="0" str_nachost="7 865,069" str_sklad="Склад сировини та матеріалів" str_nom="Відсів 0х5                     "/>
+		<str_drive str_konost="664,470" str_rashod="0" str_prihod="0" str_nachost="664,470" str_sklad="Склад сировини та матеріалів" str_nom="ДОБАВКА &quot;ТОПЦЕЛ&quot;"/>
+		<str_drive str_konost="1 628,390" str_rashod="0" str_prihod="0" str_nachost="1 628,390" str_sklad="Склад сировини та матеріалів" str_nom="ДОБАВКА &quot;ЭЛВАЛОЙ&quot;"/>
+		<str_drive str_konost="100,000" str_rashod="0" str_prihod="0" str_nachost="100,000" str_sklad="Склад сировини та матеріалів" str_nom="Добавка Kraton D 1192 ESM"/>
+		<str_drive str_konost="119,600" str_rashod="0" str_prihod="0" str_nachost="119,600" str_sklad="Склад сировини та матеріалів" str_nom="МОДИФИКАТОР &quot;SELENIZZA SLN 120&quot;"/>
+		<str_drive str_konost="1 000,000" str_rashod="0" str_prihod="0" str_nachost="1 000,000" str_sklad="Склад сировини та матеріалів" str_nom="МОДИФИКАТОР БИТУМНЫЙ К-1"/>
+		<str_drive str_konost="-11,804" str_rashod="0" str_prihod="0" str_nachost="-11,804" str_sklad="Склад сировини та матеріалів" str_nom="Нафтобiтум БНД 90-130          "/>
+		<str_drive str_konost="838,724" str_rashod="0" str_prihod="0" str_nachost="838,724" str_sklad="Склад сировини та матеріалів" str_nom="ОТСЕВ ИЗВЕСТНЯКОВЫЙ (Мінеральний порошок)     "/>
+		<str_drive str_konost="34,300" str_rashod="0" str_prihod="0" str_nachost="34,300" str_sklad="Склад сировини та матеріалів" str_nom="СОЛЬ ТЕХНИЧЕСКАЯ"/>
+		<str_drive str_konost="-155,470" str_rashod="0" str_prihod="0" str_nachost="-155,470" str_sklad="Склад сировини та матеріалів" str_nom="Технiчнi вiдходи               "/>
+		<str_drive str_konost="873,289" str_rashod="0" str_prihod="0" str_nachost="873,289" str_sklad="Склад сировини та матеріалів" str_nom="Щебiнь 10х20                   "/>
+		<str_drive str_konost="5 951,458" str_rashod="0" str_prihod="0" str_nachost="5 951,458" str_sklad="Склад сировини та матеріалів" str_nom="Щебiнь 20х40                   "/>
+		<str_drive str_konost="9 851,734" str_rashod="0" str_prihod="0" str_nachost="9 851,734" str_sklad="Склад сировини та матеріалів" str_nom="Щебiнь 5х10                    "/>
+		<str_drive str_konost="279,870" str_rashod="0" str_prihod="0" str_nachost="279,870" str_sklad="Склад сировини та матеріалів" str_nom="Щебiнь 5х20                    "/>
+		<str_drive str_konost="5,900" str_rashod="0" str_prihod="0" str_nachost="5,900" str_sklad="Склад сировини та матеріалів" str_nom="ЩЕБЕНЬ ИЗВЕСТНЯКОВЫЙ"/>
+	</SOper>
+</SOperativka>

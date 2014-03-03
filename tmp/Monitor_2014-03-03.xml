@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Monitor>
+	<NumberSection NSName="Раздел1">
+		<str_drive str_value="1 054 879,02" str_name="Остатки (грн)"/>
+		<str_drive str_value="1 044,12" str_name="Касса"/>
+		<str_drive str_value="164,99" str_name="Киев"/>
+		<str_drive str_value="819 506,42" str_name="Южный"/>
+		<str_drive str_value="234 163,49" str_name="ВБР"/>
+	</NumberSection>
+	<NumberSection NSName="Раздел7">
+		<str_drive str_value="76 719,74" str_name="Приход (грн)"/>
+		<str_drive str_value="1 344,12" str_name="Касса"/>
+		<str_drive str_value="0,00" str_name="Киев"/>
+		<str_drive str_value="75 375,62" str_name="Южный"/>
+		<str_drive str_value="0,00" str_name="ВБР"/>
+	</NumberSection>
+	<NumberSection NSName="Раздел2">
+		<str_drive str_value="0,000" str_name="Выпуск (т)"/>
+		<str_drive str_value="0,000" str_name="Асфальт"/>
+		<str_drive str_value="0,000" str_name="Известь"/>
+		<str_drive str_value="0,000" str_name="Сырье"/>
+		<str_drive str_value="0,000" str_name="Прочее"/>
+	</NumberSection>
+	<NumberSection NSName="Раздел8">
+		<str_drive str_value="0,000" str_name="Выпуск (т)"/>
+		<str_drive str_value="0,000" str_name="Асфальт"/>
+		<str_drive str_value="0,000" str_name="Известь"/>
+		<str_drive str_value="0,000" str_name="Сырье"/>
+		<str_drive str_value="0,000" str_name="Прочее"/>
+	</NumberSection>
+	<NumberSection NSName="Раздел3">
+		<str_drive str_value="0,00" str_name="Отгружено (грн)"/>
+		<str_drive str_value="0,00" str_name="Асфальт"/>
+		<str_drive str_value="0,00" str_name="Известь"/>
+		<str_drive str_value="0,00" str_name="Сырье"/>
+		<str_drive str_value="0,00" str_name="Прочее"/>
+	</NumberSection>
+	<NumberSection NSName="Раздел9">
+		<str_drive str_value="0,00" str_name="Отгружено (грн)"/>
+		<str_drive str_value="0,00" str_name="Асфальт"/>
+		<str_drive str_value="0,00" str_name="Известь"/>
+		<str_drive str_value="0,00" str_name="Сырье"/>
+		<str_drive str_value="0,00" str_name="Прочее"/>
+	</NumberSection>
+	<NumberSection NSName="Раздел4">
+		<str_drive str_value="25 018,259" str_name="Сырье (т)"/>
+		<str_drive str_value="-66,364" str_name="Битум"/>
+		<str_drive str_value="16 962,251" str_name="Щебень"/>
+		<str_drive str_value="257,303" str_name="Известь"/>
+		<str_drive str_value="7 865,069" str_name="Отсев"/>
+	</NumberSection>
+	<NumberSection NSName="Раздел10">
+		<str_drive str_value="0,000" str_name="Приход (т)"/>
+		<str_drive str_value="0,000" str_name="Битум"/>
+		<str_drive str_value="0,000" str_name="Щебень"/>
+		<str_drive str_value="0,000" str_name="Известь"/>
+		<str_drive str_value="0,000" str_name="Отсев"/>
+	</NumberSection>
+	<NumberSection NSName="Раздел5">
+		<str_drive str_value="18 305 044,99" str_name="Дебиторы (грн)"/>
+		<str_drive str_value="16 246 823,98" str_name="Продукция"/>
+		<str_drive str_value="2 588,29" str_name="Сырье"/>
+		<str_drive str_value="1 835 491,38" str_name="Работы"/>
+		<str_drive str_value="220 141,34" str_name="ТМЦ"/>
+	</NumberSection>
+	<NumberSection NSName="Раздел6">
+		<str_drive str_value="9 511 890,52" str_name="Кредиторы (грн)"/>
+		<str_drive str_value="2 647 747,82" str_name="Продукция"/>
+		<str_drive str_value="5 186 009,74" str_name="Сырье"/>
+		<str_drive str_value="1 676 794,74" str_name="Работы"/>
+		<str_drive str_value="1 338,22" str_name="ТМЦ"/>
+	</NumberSection>
+</Monitor>
