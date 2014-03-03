@@ -1,11 +1,11 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 from nanoparcer.xparcer import Parcer
-from db.mtsql import bank_sql as bsql
+from common.mtsql import bank_sql as bsql
 import datetime
 import logging
 logging.basicConfig(filename='xlogger.log',level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
-from config.definition import Config 
+from common.definition import Config 
 from ConfigParser import SafeConfigParser
 from time import sleep
 

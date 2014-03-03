@@ -6,16 +6,17 @@ from flask import render_template
 from flask import Markup
 import time
 from datetime import datetime
-from nanoparcer.xparcer import Parcer
-from nanoparcer.html import html
+from common.xparcer import Parcer
+from common.html import html
 import locale
 from forms import LoginForm
-
+from common.tools import Users
 
 locale.setlocale(locale.LC_ALL, '')
 
 p = Parcer()
 h = html()
+u = Users()
 
 app = Flask(__name__)
 app.config.from_object('config')
@@ -28,8 +29,12 @@ def before_request():
 def login():
     form = LoginForm()
     if form.validate_on_submit():
-        #flash(u'Пользователь ' + form.openid.data )# '", remember_me=' + str(form.remember_me.data))
-        if form.openid.data == 'neuro' and form.password.data == 'cyber78d':
+        profile = u.get_user(form.openid.data)
+        hashed_password = ""
+        if profile.has_key('password'):
+            hashed_password = profile['password']
+        entered_password = u.make_digest(form.password.data)
+        if form.openid.data == profile['login'] and hashed_password == entered_password:
             session['username'] = form.openid.data
             return redirect('/')
         else:
@@ -42,7 +47,6 @@ def login():
 
 @app.route("/")
 def hello():
-    print session
     if 'username' not in session:
        return redirect('/login')    
     date = datetime.now().strftime("%A, %d %B %Y")
