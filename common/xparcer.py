@@ -4,8 +4,8 @@ import datetime
 from definition import Config 
 from mtsql import bank_sql
 from xml.etree.ElementTree import fromstring, ElementTree
-
-
+import unicodedata
+from locale import atof, format, currency
 
 class Parcer(object):
 
@@ -44,5 +44,24 @@ class Parcer(object):
             summary = item.attrib
 
         return summary
-
-
+    
+    def sum_of_all(self, date=datetime.datetime.now().date()):
+        bankid = self.c.bank_id()
+        kost_list = []
+        for keys in bankid:
+            print date
+            if keys != '__name__':
+                xml = self.s.get_last_bank(keys, date)
+                tree = ElementTree(fromstring(xml[0][0].encode('utf-8')))
+                root = ElementTree.getroot(tree)                
+                children = root.getchildren()
+                for item in children:
+                    #print item.attrib
+                    if item.attrib.has_key('kassa_konech_ost'):
+                        kost_list.append(item.attrib['kassa_konech_ost'].encode('ascii','ignore'))
+                    if item.attrib.has_key('bank_konech_ost'):
+                        kost_list.append( item.attrib['bank_konech_ost'].encode('ascii','ignore'))
+        sum = 0
+        for item in kost_list:
+            sum = sum + float(atof(item))
+        return currency(sum, symbol=False, grouping=True)
