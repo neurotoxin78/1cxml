@@ -49,7 +49,6 @@ class Parcer(object):
         bankid = self.c.bank_id()
         kost_list = []
         for keys in bankid:
-            print date
             if keys != '__name__':
                 xml = self.s.get_last_bank(keys, date)
                 tree = ElementTree(fromstring(xml[0][0].encode('utf-8')))

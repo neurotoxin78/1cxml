@@ -1,0 +1,48 @@
+{% extends "main.html" %}
+
+{% block dt %}
+
+{% endblock %}
+
+{% block content %}
+<div data-role="tabs" id="tabs" data-theme="b" data-content-theme="b">
+    <div data-role="navbar" data-theme="b" data-content-theme="b">
+  <ul>
+        <li><a href="#tabs-1"><img src="/static/images/banks.png"</img></a></li>
+        <li><a href="#tabs-2"><img src="/static/images/banks.png"</img></a></li>
+        <li><a href="#tabs-3"><img src="/static/images/banks.png"</img></a></li>
+        <li><a href="#tabs-4"><img src="/static/images/banks.png"</img></a></li>
+        <li><a href="#tabs-5"><img src="/static/images/cash.png"</img></a></li>
+  </ul>
+</div>
+<div data-role="collapsible" data-theme="b" data-content-theme="b">
+    <h4>Календарь</h4>
+    <form action="#" method="POST">
+          <input value="" name="date" type="date" data-role="datebox" id="date" data-theme="a" data-options='{"mode": "calbox"}'/>   
+          <input type="submit">
+    </form>
+
+</div>
+
+<div id="tabs-1" >
+    {{ bank_id_3|safe }}
+</div>
+
+<div id="tabs-2">
+    {{ bank_id_2|safe }}
+</div>
+
+<div id="tabs-3">
+    {{ bank_id_1|safe}}
+</div>
+
+<div id="tabs-4">
+    {{ bank_id_4|safe }}
+</div>
+
+<div id="tabs-5">
+    {{ bank_id_0|safe }}
+</div>
+{{ content | safe }}
+
+{% endblock %}

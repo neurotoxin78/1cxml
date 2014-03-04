@@ -1,6 +1,6 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
-from nanoparcer.xparcer import Parcer
+from common.xparcer import Parcer
 from common.mtsql import bank_sql as bsql
 import datetime
 import logging

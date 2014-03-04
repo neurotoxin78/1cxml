@@ -7,66 +7,20 @@
 
 <link rel="stylesheet" type="text/css" href="/static/css/main.css/">
 
-<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/cupertino/jquery-ui.css">
-<script src="//code.jquery.com/jquery-1.9.1.js"></script>
-<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<link rel="stylesheet" href="/static/js/jquery.mobile-1.4.2.min.css" />
 
-
+<script src="/static/js/jquery-1.11.0.js"></script>
 
 <script type="text/javascript">
-$.datepicker.regional['ru'] = {
-closeText: 'Закрыть',
-prevText: '&#x3c;Пред',
-nextText: 'След&#x3e;',
-currentText: 'Сегодня',
-monthNames: ['Январь','Февраль','Март','Апрель','Май','Июнь',
-'Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'],
-monthNamesShort: ['Янв','Фев','Мар','Апр','Май','Июн',
-'Июл','Авг','Сен','Окт','Ноя','Дек'],
-dayNames: ['воскресенье','понедельник','вторник','среда','четверг','пятница','суббота'],
-dayNamesShort: ['вск','пнд','втр','срд','чтв','птн','сбт'],
-dayNamesMin: ['Вс','Пн','Вт','Ср','Чт','Пт','Сб'],
-dateFormat: 'yy-mm-dd',
-firstDay: 1,
-isRTL: false
-};
-$.datepicker.setDefaults($.datepicker.regional['ru']);
-
-$('input.datepicker').datepicker({
-showOn: 'focus',
- showButtonPanel: true
+$(document).bind("mobileinit", function () {
+    $.mobile.ajaxEnabled = false;
+    $.mobile.touchOverflowEnabled = true;
+    $.mobile.loadingMessage = "Загрузка";
 
 });
 </script>
 
-<!--
-<script>
-  $(function() {
-    $( "#contentwrap" ).dialog({maxWidth:'auto',
-                    maxHeight: "auto",width: 'auto',
-                    height: "auto",
-                    position: "center",
-                    minHeight: 680
-                   });
-  });
-</script>
--->
-  <script>
-  $(function() {
-    $( "#dialog" ).dialog({modal: true,position: "center",width: 400,
-                    height: 180, hide: "explode",
-                    buttons: [ { text: "Ok", click: function() { $( this ).dialog( "close" ); } } ]
-
-                    });
-  });
-  </script>
-{% block dt %}
-
-
-
-{% endblock %}
-
-
+<script src="/static/js/jquery.mobile-1.4.2.min.js"></script>
 
 <script type="text/javascript">
 $(document).ready(function(){
@@ -81,37 +35,36 @@ $(document).ready(function(){
 });
 </script>
 
+{% block dt %}
+
+
+
+{% endblock %}
 
 </head>
 <body>
-<!--
-<div id="dialog" title="Basic dialog">
-  <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
-</div>
--->
-
-
 <div id="wrapper">
 <div id="header">
-
-
+    <div  data-role="header" data-position="fixed"> 
+        <h2>{{title|safe}}</h2>
+    <div data-role="navbar" data-grid="b" data-theme="b">   
+    <ul>
+        <li><a href="/"><img src="/static/images/home.png" style="float: left;" class="ui-btn-active"></img>Главная</a></li>
+        <li><a href="/bank"><img src="/static/images/dollar.png" style="float: left;"></img>Счета</a></li>
+        <li><a href="/logout"><img src="/static/images/exit.png" style="float: left;"></img>Выход</a></li>
+    </ul>
+    </div><!-- /navbar -->    
+    </div> 
 </div>
 
-        <div id="contentwrap" title="{{ title }}">
+        <div id="contentwrap">
         <div id="content">
+<div data-role="content">
 
 
-<div class='menubar'>
-  <ul id='menu'>
-    <li><a href="/"><img src="/static/images/home.png" style="float: left;"></img>Главная</a></li>
-    <li><a href="/bank"><img src="/static/images/oper.png" style="float: left;"></img>Оперативная</a></li>
-    <li><a href="/logout"><img src="/static/images/exit.png" style="float: left;"></img>Выход</a></li>
-</ul>
-</div>
 <div class="child_div_1">
 {{summary|safe}}
 </div>
-
 
 {% block page %}
     {% block content %}
@@ -127,30 +80,19 @@ $(document).ready(function(){
 
         {{ content| safe }}
 
-<div class="divider-horizontal2"></div>
-<div id='inner'>
-<!--
-Путь:  {{ request.path }}
--->
-<center>
-<a href="#" class="show_hide">Отладочные сообщения</a>
-</center>
-<div class="slidingDiv" style="color:white;">
-{{ debug | safe }}
-</div>
-        </div>
-
 
     {% endblock %}
 {% endblock %}
+</div>
+        </div>
+        </div>
 
-        </div>
-        </div>
-<div id="footerwrap">
 <div id="footer">
-
-        </div>
+<div data-role="footer" data-grid="b">
+    <h4>
+    {{footer|safe}}
+    </h4>
+</div>
     </div>
-
 </body>
 </html>

@@ -2,76 +2,48 @@
 
 {% block dt %}
 
-<script type="text/javascript">
-	$(function() {
-		$('#date').datepicker({
-			showOn: 'both',
-			buttonImage: "/static/images/calendar.png",
-			buttonImageOnly: true,
-			autoSize: true,
-			onSelect: function (dateText, inst) {
-				$(this).parent('form').submit();
-			}
-		});
-	});
-</script>
-
-
- <script>
-$(function() {
-$( "#tabs" ).tabs();
-});
-</script>
-
 {% endblock %}
 
 {% block content %}
-
-
-
-<div id="tabs">
-  <ol>
-      <li><a href="#tabs-1"><img src="/static/images/banks.png"</img>ПАТ "ПІВДЕННИЙ"</a></li>
-    <li><a href="#tabs-2"><img src="/static/images/banks.png"</img>ПАТ "АКБ Київ"</a></li>
-    <li><a href="#tabs-3"><img src="/static/images/banks.png"</img>ПАТ "КРЕДИТПРОМБАНК"</a></li>
-    <li><a href="#tabs-4"><img src="/static/images/banks.png"</img>ПАТ "ВБР"</a></li>
-    <li><a href="#tabs-5"><img src="/static/images/cash.png"</img>Касса</a></li>
-  </ol>
-
-<div id='dp'>
-   <div class ='child_div_1'>
-    <form id="frmDate" action="" method="post" >
-	    <input id="date" title="Календарь" name="date" type="hidden"  />
+<div data-url="/bank">
+ <div data-role="collapsibleset" data-theme="a" data-content-theme="a">   
+     <br>
+     <br>
+ <div data-role="collapsible" data-theme="a" data-content-theme="a" >
+    <h4>Календарь</h4>
+    <form action="#" method="POST">
+          <input value="" name="date" type="date" data-role="datebox" id="date" data-theme="a"
+          data-options='{"mode":"calbox"}'/>   
+          <input type="submit" value="Перейти" data-role='button' data-inline="true">
     </form>
-</div>
-
 
 </div>
-
-
-<div id="tabs-1" >
-    {{ bank_id_3|safe }}
 </div>
 
-<div id="tabs-2">
+<div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>ПАТ "ПІВДЕННИЙ"</h3>
+{{ bank_id_3|safe }}
+</div>
+
+<div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>ПАТ "АКБ Київ"</h3>
     {{ bank_id_2|safe }}
 </div>
 
-<div id="tabs-3">
+<div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>ПАТ "КРЕДИТПРОМБАНК"</h3>
     {{ bank_id_1|safe}}
 </div>
 
-<div id="tabs-4">
+<div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>ПАТ "ВБР"</h3>
     {{ bank_id_4|safe }}
 </div>
 
-<div id="tabs-5">
+<div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>Основная касса (грн)</h3>
     {{ bank_id_0|safe }}
 </div>
-
-
-
-
 
 {{ content | safe }}
 

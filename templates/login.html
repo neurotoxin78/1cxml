@@ -1,7 +1,10 @@
 <!-- extend from base layout -->
 {% extends "main.html" %}
 
+
 {% block content %}
+<div data-role="page" id="login" data-url="/login">
+
 <div class="wide">
 {% with messages = get_flashed_messages() %}
     {% if messages %}
@@ -25,8 +28,7 @@
     <p>
     Пароль: {{form.password(size=37)}}<br>
     </p>
-    <p>{{form.remember_me}} Запомнить меня</p>
-    <p><input type="submit" value="Войти"></p>
+     <p><input type="submit" value="Войти" data-role='button' data-inline="true"></p>
 </form>
 </div>
 {% endblock %}
