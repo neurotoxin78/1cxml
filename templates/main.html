@@ -11,6 +11,8 @@
 
 <script src="/static/js/jquery-1.11.0.js"></script>
 
+<link rel="stylesheet"  href="/static/css/jqm-icon-pack-fa.css" />
+
 <script type="text/javascript">
 $(document).bind("mobileinit", function () {
     $.mobile.ajaxEnabled = false;
@@ -35,6 +37,7 @@ $(document).ready(function(){
 });
 </script>
 
+
 {% block dt %}
 
 
@@ -47,11 +50,12 @@ $(document).ready(function(){
 <div id="header">
     <div  data-role="header" data-position="fixed"> 
         <h2>{{title|safe}}</h2>
-    <div data-role="navbar" data-grid="b" data-theme="b">   
+    <div data-role="navbar" data-theme="b">   
     <ul>
-        <li><a href="/"><img src="/static/images/home.png" style="float: left;" class="ui-btn-active"></img>Главная</a></li>
-        <li><a href="/bank"><img src="/static/images/dollar.png" style="float: left;"></img>Счета</a></li>
-        <li><a href="/logout"><img src="/static/images/exit.png" style="float: left;"></img>Выход</a></li>
+        <li><a href="/" class=" ui-icon-home ui-btn-icon-left" >Главная</a></li>
+        <li><a href="/bank" class="ui-icon-bar-chart-o ui-btn-icon-left">Счета</a></li>
+        <li><a href="/monitor" class="ui-icon-laptop ui-btn-icon-left">Монитор</a></li>
+        <li><a href="/logout" class="ui-icon-power ui-btn-icon-left">Выход</a></li>
     </ul>
     </div><!-- /navbar -->    
     </div> 

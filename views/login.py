@@ -39,7 +39,7 @@ def login_page():
             return redirect('/', code=301)            
         else:
             return redirect('/login', code=302)
-    return render_template('login.html', title = 'ABZ Login', form = form)
+    return render_template('login.html', title = u'ABZ uInformed:Вход', form = form)
 
 @logout.route("/logout", methods=['GET','POST'])
 def logout_page():

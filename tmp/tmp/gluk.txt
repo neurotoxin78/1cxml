@@ -1,0 +1,11 @@
+neuro@celestia:/mnt/xmldata$ cat FinansBankKBPivden_2014-03-04.xml 
+<?xml version="1.0" encoding="UTF-8"?>
+<FinansBankKBPivden>
+        <bank bank_rasxod="0" bank_prixod="0" bank_konech_ost="334 829,07" bank_nach_ost="334 829,07" bank_name="ПАТ &quot;ПІВДЕННИЙ&quot;, м. Київ (Расчетный)"/>
+</FinansBankKBPivden>
+neuro@celestia:/mnt/xmldata$ cat FinansBankKBPivden_2014-03-04.xml 
+<?xml version="1.0" encoding="UTF-8"?>
+<FinansBankKBPivden>
+        <bank bank_rasxod="0" bank_prixod="0" bank_konech_ost="781 909,08" bank_nach_ost="781 909,08" bank_name="ПАТ &quot;ПІВДЕННИЙ&quot;, м. Київ (Расчетный)"/>
+</FinansBankKBPivden>
+

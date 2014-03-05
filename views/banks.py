@@ -14,10 +14,11 @@ banks = Blueprint('banks', __name__)
 
 @banks.route("/bank", methods=['GET','POST'])
 def banks_page():
+    date = str(datetime.now().date())
     if 'username' not in session:
        return redirect('/login')     
     if request.method == 'POST':
-        date = request.form['date'] 
+        date = request.form['date']
         try:
             cassa = h.gen_summary_html(p.xml2dict_summary_bank("0", date),"0", date)
         except:
@@ -42,20 +43,20 @@ def banks_page():
             sum = p.sum_of_all(date)
         except:
             sum = u'Нет данных'
-        date=datetime.fromtimestamp(mktime(time.strptime(date,'%Y-%m-%d'))).strftime('%d-%m-%Y')   
+        try:
+            date=datetime.fromtimestamp(mktime(time.strptime(date,'%Y-%m-%d'))).strftime('%d-%m-%Y')   
+        except:
+            date = u"Дата не выбрана"
     else: 
-        cassa = h.gen_summary_html(p.xml2dict_summary_bank("0"),"0")
-        bank_1 = h.gen_summary_html(p.xml2dict_summary_bank("1"),"1")
-        bank_2 = h.gen_summary_html(p.xml2dict_summary_bank("2"),"2")
-        bank_3 = h.gen_summary_html(p.xml2dict_summary_bank("3"),"3")
-        bank_4 = h.gen_summary_html(p.xml2dict_summary_bank("4"),"4")
+        #print date
+        cassa = h.gen_summary_html(p.xml2dict_summary_bank("0", date),"0", date)
+        bank_1 = h.gen_summary_html(p.xml2dict_summary_bank("1", date),"1", date)
+        bank_2 = h.gen_summary_html(p.xml2dict_summary_bank("2", date),"2", date)
+        bank_3 = h.gen_summary_html(p.xml2dict_summary_bank("3", date),"3", date)
+        bank_4 = h.gen_summary_html(p.xml2dict_summary_bank("4", date),"4", date)
         date = u'Сегодня'
         sum = p.sum_of_all()
-
     platform = request.user_agent.platform
-
-
-
     summa = u"Общая cумма: " + sum + u" грн"
     return render_template('banks.html', 
                             bank_id_0=cassa, bank_id_1=bank_1, bank_id_2=bank_2, 

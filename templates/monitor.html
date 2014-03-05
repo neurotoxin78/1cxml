@@ -1,0 +1,73 @@
+{% extends "main.html" %}
+
+{% block dt %}
+
+{% endblock %}
+
+{% block content %}
+ <div data-role="collapsibleset" data-theme="a" data-content-theme="a">   
+     <br>
+     <br>
+ <div data-role="collapsible" data-theme="a" data-content-theme="a" class="ui-btn ui-icon-calendar ui-btn-icon-left">
+    <h3>Календарь</h3>
+    <form action="#" method="POST">
+          <input value="" name="date" type="date" data-role="datebox" id="date" data-theme="a"
+          data-options='{"mode":"calbox"}'/>   
+          <input type="submit" value="Перейти" data-role='button' data-inline="true">
+    </form>
+</div>
+</div>
+
+<div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>Раздел 1</h3>
+{{ part_1|safe }}
+</div>
+
+<div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>Раздел 2</h3>
+    {{ part_2|safe }}
+</div>
+
+<div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>Раздел 3</h3>
+    {{ part_3|safe}}
+</div>
+
+<div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>Раздел 4</h3>
+    {{ part_4|safe }}
+</div>
+
+<div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>Раздел 5</h3>
+    {{ part_5|safe }}
+</div>
+
+<div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>Раздел 6</h3>
+    {{ part_6|safe }}
+</div>
+
+<div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>Раздел 7</h3>
+    {{ part_7|safe }}
+</div>
+
+<div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>Раздел 8</h3>
+    {{ part_8|safe }}
+</div>
+
+<div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>Раздел 9</h3>
+    {{ part_9|safe }}
+</div>
+
+<div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>Раздел 10</h3>
+    {{ part_10|safe }}
+</div>
+
+{{ content | safe }}
+
+{% endblock %}
