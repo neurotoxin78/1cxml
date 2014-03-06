@@ -1,7 +1,12 @@
 {% extends "main.html" %}
 
 {% block dt %}
-
+<script>
+  //reset type=date inputs to text
+  $( document ).bind( "mobileinit", function(){
+    $.mobile.page.prototype.options.degradeInputs.date = true;
+  });	
+</script>
 {% endblock %}
 
 {% block content %}
@@ -11,10 +16,14 @@
  <div data-role="collapsible" data-theme="a" data-content-theme="a" >
     <h3 class="ui-btn ui-icon-calendar ui-btn-icon-right">Календарь</h3>
     <form action="#" method="POST">
-          <input value="" name="date" type="date" data-role="datebox" id="date" data-theme="a"
-          data-options='{"mode":"calbox"}'/>   
-          <input type="submit" value="Перейти" data-role='button' data-inline="true">
-    </form>
+        <div data-role="fieldcontain">
+          <input value="" name="date" type="date" data-role="datebox" data-inline="true" id="date" data-theme="a"
+          data-options='{"mode":"calbox"}'/>
+         <input type="submit" value="Перейти" data-role='button' data-inline="true">
+        </div>   
+         <input type="submit" value="<" name='prev' data-role='button' data-inline="true" class="ui-btn ui-icon-money ui-btn-icon-right">
+         <input type="submit" value=">" name='next' data-role='button' data-inline="true" class="ui-btn ui-icon-money ui-btn-icon-right">
+     </form>    
 </div>
 </div>
 

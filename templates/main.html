@@ -5,6 +5,10 @@
 <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel="stylesheet" href="/static/js/jquery.ui.datepicker.mobile.css" /> 
+  <script src="/static/js/jQuery.ui.datepicker.js"></script>
+  <script src="/static/js/jquery.ui.datepicker.mobile.js"></script>
+
 <link rel="stylesheet" type="text/css" href="/static/css/main.css/">
 
 <link rel="stylesheet" href="/static/js/jquery.mobile-1.4.2.min.css" />
@@ -12,6 +16,8 @@
 <script src="/static/js/jquery-1.11.0.js"></script>
 
 <link rel="stylesheet"  href="/static/css/jqm-icon-pack-fa.css" />
+
+
 
 <script type="text/javascript">
 $(document).bind("mobileinit", function () {
@@ -24,18 +30,6 @@ $(document).bind("mobileinit", function () {
 
 <script src="/static/js/jquery.mobile-1.4.2.min.js"></script>
 
-<script type="text/javascript">
-$(document).ready(function(){
-
-        $(".slidingDiv").hide();
-        $(".show_hide").show();
-
-    $('.show_hide').click(function(){
-    $(".slidingDiv").slideToggle();
-    });
-
-});
-</script>
 
 
 {% block dt %}
