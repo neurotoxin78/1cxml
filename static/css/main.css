@@ -159,6 +159,8 @@ background-color: #ADC9E6;
 height: 1px;
 }
 
-
+.ui-table-columntoggle-btn {
+    display: none !important;
+}
 
 

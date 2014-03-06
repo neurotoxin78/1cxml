@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from xparcer import Parcer as parcer
+from xparcer import BankParcer as bank_parcer
 import datetime
 
 class html(object):
@@ -9,7 +9,7 @@ class html(object):
 
     def __init__(self):
         """@todo: to be defined1. """
-        self.p = parcer()
+        self.p = bank_parcer()
 
     def gen_summary_html(self, data_dict, bank_id, date=datetime.datetime.now().date()):
         """@todo: Docstring for gen_summary_html.
@@ -75,4 +75,32 @@ class html(object):
             html = name + table
 
         return html
+    
+    def gen_monitor_table(self, data):
+        """@todo: Docstring for gen_monitor_table.
 
+        :data: @todo
+        :returns: @todo
+
+        """
+        header = u'''
+<table data-role="table" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Показать" data-column-popup-theme="a">
+     <thead>
+       <tr>
+         <th>Позиция</th>
+         <th>Значение</th>
+       </tr>
+     </thead>
+     <tbody>
+        '''
+        tcell =''
+        for item in data:
+            tdata = item
+            tcell = tcell + u'''
+       <tr>
+         <td>{}</td>
+         <td>{}</td>
+       </tr>
+            '''.format(tdata[0], tdata[1])
+        table = header+ tcell + "</tbody></table>"
+        return table

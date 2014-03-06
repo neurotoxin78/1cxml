@@ -9,7 +9,7 @@ class bank_sql():
 	def __init__(self):
 	    self.database = 'xml.db'
         def connect(self):
-            self.con = lite.connect(self.database)
+            self.con = lite.connect(self.database, timeout=10)
             return self.con 
 
 	def insert_bank(self,bank_id, xml, date=datetime.datetime.now().date()):
@@ -31,5 +31,33 @@ class bank_sql():
                 self.connect()
 		cur = self.con.cursor()
 		cur.execute('select xml, date from bank where bank_id="'+bank_id+'" and date="'+str(date)+'" order by rowid desc limit 1;')
+		return cur.fetchall()
+
+class monitor_sql():
+	def __init__(self):
+	    self.database = 'xml.db'
+        def connect(self):
+            self.con = lite.connect(self.database, timeout=5)
+            return self.con 
+
+	def insert_monitor(self, xml, date=datetime.datetime.now().date()):
+                self.connect()
+		with self.con:
+			cur = self.con.cursor()
+			values = "'"+str(date)+"','"+xml+"'"
+                        cur.execute("insert into monitor (date, xml) values ("+values+");")
+
+        def update_monitor(self, xml, date=datetime.datetime.now().date()):
+                self.connect()
+		with self.con:
+			cur = self.con.cursor()
+			values = "','"+str(date)+"','"+xml+"'"
+                        cur.execute("update monitor set xml='"+xml+"' where date='"+str(date)+"';")
+
+
+	def get_monitor(self, date=datetime.datetime.now().date()):
+                self.connect()
+		cur = self.con.cursor()
+		cur.execute('select xml, date from monitor where date="'+str(date)+'" order by rowid desc limit 1;')
 		return cur.fetchall()
 

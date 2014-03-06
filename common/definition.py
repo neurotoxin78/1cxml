@@ -29,6 +29,15 @@ class Config(object):
         bank_id = dict(self.cfg._sections['bank_id'])
         return bank_id
 
+    def monitor_id(self):
+        """@todo: Docstring for monitor_id.
+        :returns: @todo
+
+        """
+        monitor_id = dict(self.cfg._sections['monitor_id'])
+        return monitor_id
+
+
 
 
 

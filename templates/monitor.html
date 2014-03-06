@@ -18,56 +18,61 @@
 </div>
 </div>
 
-<div data-role="collapsible" data-theme="a" data-content-theme="a">
-        <h3>Раздел 1</h3>
-{{ part_1|safe }}
-</div>
+<div data-role="collapsibleset" data-theme="b" data-content-theme="b" class="ui-btn ui-icon-usd ui-btn-icon-left"> 
+    <div data-role="collapsible" data-theme="a" data-content-theme="a">
+            <h3>Финансы (Остатки)</h3>
+            {{ part_1|safe }}
+    </div>
+    
+    <div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>Финансы (Приход)</h3>
+    {{ part_7|safe }}
+    </div>
 
+    <div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>Дебиторы</h3>
+    {{ part_5|safe }}
+    </div>
+
+    <div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>Кредиторы</h3>
+    {{ part_6|safe }}
+    </div>
+
+    <div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>Финансы (Отгрузка)</h3>
+        {{ part_3|safe}}
+    </div>
+
+    <div data-role="collapsible" data-theme="a" data-content-theme="a">
+        <h3>Финансы (Отгружено)</h3>
+    {{ part_9|safe }}
+    </div>
+</div>
 <div data-role="collapsible" data-theme="a" data-content-theme="a">
-        <h3>Раздел 2</h3>
+        <h3>Выпуск</h3>
     {{ part_2|safe }}
 </div>
 
+<div data-role="collapsibleset" data-theme="b" data-content-theme="b" class="ui-btn ui-icon-check ui-btn-icon-left">
 <div data-role="collapsible" data-theme="a" data-content-theme="a">
-        <h3>Раздел 3</h3>
-    {{ part_3|safe}}
-</div>
-
-<div data-role="collapsible" data-theme="a" data-content-theme="a">
-        <h3>Раздел 4</h3>
+        <h3>Сырье (Остатки)</h3>
     {{ part_4|safe }}
 </div>
 
-<div data-role="collapsible" data-theme="a" data-content-theme="a">
-        <h3>Раздел 5</h3>
-    {{ part_5|safe }}
-</div>
+
 
 <div data-role="collapsible" data-theme="a" data-content-theme="a">
-        <h3>Раздел 6</h3>
-    {{ part_6|safe }}
-</div>
-
-<div data-role="collapsible" data-theme="a" data-content-theme="a">
-        <h3>Раздел 7</h3>
-    {{ part_7|safe }}
-</div>
-
-<div data-role="collapsible" data-theme="a" data-content-theme="a">
-        <h3>Раздел 8</h3>
+        <h3>Выпуск</h3>
     {{ part_8|safe }}
 </div>
 
-<div data-role="collapsible" data-theme="a" data-content-theme="a">
-        <h3>Раздел 9</h3>
-    {{ part_9|safe }}
-</div>
 
 <div data-role="collapsible" data-theme="a" data-content-theme="a">
-        <h3>Раздел 10</h3>
+        <h3>Сырье (Приход)</h3>
     {{ part_10|safe }}
 </div>
-
+</div>
 {{ content | safe }}
 
 {% endblock %}

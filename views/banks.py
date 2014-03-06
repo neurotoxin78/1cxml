@@ -4,10 +4,10 @@ from flask import Blueprint, render_template, session, redirect, request
 from datetime import datetime
 import time
 from time import mktime
-from common.xparcer import Parcer
+from common.xparcer import BankParcer
 from common.html import html
 h = html()
-p = Parcer()
+p = BankParcer()
 
 
 banks = Blueprint('banks', __name__)
