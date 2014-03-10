@@ -33,7 +33,15 @@ class html(object):
             table = u"""
             <div style="margin:0 auto;">
             <center>
-            <table border="0"   width="70%" cellpadding="0" cellspacing="2">
+            <table data-role="table" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Показать" data-column-popup-theme="a" >
+     <thead>
+       <tr>
+         <th></th>
+         <th></th>
+       </tr>
+     </thead>
+     <tbody>
+
 	            <tr>
                         <td><h2>Приход: {} </h2></td>
                         <td><h2>Расход: {} </h2></td>
@@ -42,7 +50,8 @@ class html(object):
                         <td><h2>Начальный остаток: {} </h2></td>
                         <td><h2>Конечный остаток: {} </h2></td>
 	            </tr>
-            </table>
+        </tbody>
+        </table>
             </center>
             </div>
             """.format(kassa_prixod,kassa_rasxod,kassa_nach_ost,kassa_konech_ost)
@@ -59,7 +68,15 @@ class html(object):
             table = u"""
             <div style="margin:0 auto;">
             <center>
-            <table border="0"   width="70%" cellpadding="0" cellspacing="2">
+            <table data-role="table" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Показать" data-column-popup-theme="a">
+     <thead>
+       <tr>
+         <th></th>
+         <th></th>
+       </tr>
+     </thead>
+     <tbody>
+
 	            <tr>
                         <td><h2>Приход: {} </h2></td>
                         <td><h2>Расход: {} </h2></td>
@@ -68,6 +85,7 @@ class html(object):
                         <td><h2>Начальный остаток: {} </h2></td>
                         <td><h2>Конечный остаток: {} </h2></td>
 	            </tr>
+            </tbody>
             </table>
             </center>
             </div>
@@ -87,8 +105,8 @@ class html(object):
 <table data-role="table" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Показать" data-column-popup-theme="a">
      <thead>
        <tr>
-         <th>Позиция</th>
-         <th>Значение</th>
+         <th></th>
+         <th></th>
        </tr>
      </thead>
      <tbody>

@@ -15,6 +15,9 @@ index = Blueprint('index', __name__)
 def index_page():
     if 'username' not in session:
        return redirect('/login')    
+    if 'theme' not in session:
+        session['theme']='a'
+    
     date = datetime.now().strftime("%A, %d %B %Y")
 
     welcome = u'''<div class="wide"><center><h2>Добро пожаловать {}</h2><p>
@@ -22,11 +25,13 @@ def index_page():
     '''.format(session['username'],date.decode('utf-8'))
 
     html = welcome
-    return render_template('main.html', content=html, title=u"<b>Главная</b>", footer=u"(c) ПАО 'Асфальтобетонный завод'")
+    return render_template('main.html', content=html, title=u"<b>Главная</b>", footer=u"(c) ПАО 'Асфальтобетонный завод'", t=session['theme'])
 
 
 @login.route("/login", methods=['GET','POST'])
 def login_page():
+    if 'theme' not in session:
+        session['theme']='a'    
     form = LoginForm()
     if form.validate_on_submit():
         profile = u.get_user(form.openid.data)
@@ -39,7 +44,7 @@ def login_page():
             return redirect('/', code=301)            
         else:
             return redirect('/login', code=302)
-    return render_template('login.html', title = u'ABZ uInformed:Вход', form = form)
+    return render_template('login.html', title = u'ABZ uInformed:Вход', form = form, t=session['theme'])
 
 @logout.route("/logout", methods=['GET','POST'])
 def logout_page():

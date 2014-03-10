@@ -13,7 +13,9 @@ monitor = Blueprint('monitor', __name__)
 def monitor_page():
     date = str(datetime.now().date())
     if 'username' not in session:
-       return redirect('/login')     
+       return redirect('/login')
+    if 'theme' not in session:
+        session['theme']='a'   
     if request.method == 'POST':
         date = request.form['date']
     else: 
@@ -104,6 +106,6 @@ def monitor_page():
 
     return render_template('monitor.html', part_1=p1, part_2=p2, part_3=p3, part_4=p4,
                             part_5=p5, part_6=p6, part_7=p7, part_8=p8, part_9=p9,
-                            part_10=p10,
+                            part_10=p10,t=session['theme'],
                             title=u"Монитор руководителя")
 

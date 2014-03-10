@@ -5,74 +5,74 @@
 {% endblock %}
 
 {% block content %}
- <div data-role="collapsibleset" data-theme="a" data-content-theme="a">   
-     <br>
-     <br>
- <div data-role="collapsible" data-theme="a" data-content-theme="a" class="ui-btn ui-icon-calendar ui-btn-icon-left">
-    <h3>Календарь</h3>
+ <div data-role="collapsibleset" data-theme="{{t}}" data-content-theme="{{t}}">   
+    <h3 class="ui-btn ui-icon-calendar ui-btn-icon-left">Календарь</h3>
     <form action="#" method="POST">
-          <input value="" name="date" type="date" data-role="datebox" id="date" data-theme="a"
+          <input value="" name="date" type="date" data-role="datebox" id="date" data-theme="{{t}}"
           data-options='{"mode":"calbox"}'/>   
           <input type="submit" value="Перейти" data-role='button' data-inline="true">
     </form>
 </div>
-</div>
 
-<div data-role="collapsibleset" data-theme="b" data-content-theme="b" class="ui-btn ui-icon-usd ui-btn-icon-left"> 
-    <div data-role="collapsible" data-theme="a" data-content-theme="a">
+<div data-role="collapsibleset" data-theme="{{t}}" data-content-theme="{{t}}" class="ui-btn ui-icon-usd ui-btn-icon-left"> 
+    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
             <h3>Финансы (Остатки)</h3>
             {{ part_1|safe }}
     </div>
     
-    <div data-role="collapsible" data-theme="a" data-content-theme="a">
+    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
         <h3>Финансы (Приход)</h3>
     {{ part_7|safe }}
     </div>
 
-    <div data-role="collapsible" data-theme="a" data-content-theme="a">
+    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
         <h3>Дебиторы</h3>
     {{ part_5|safe }}
     </div>
 
-    <div data-role="collapsible" data-theme="a" data-content-theme="a">
+    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
         <h3>Кредиторы</h3>
     {{ part_6|safe }}
     </div>
 
-    <div data-role="collapsible" data-theme="a" data-content-theme="a">
+    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
         <h3>Финансы (Отгрузка)</h3>
         {{ part_3|safe}}
     </div>
 
-    <div data-role="collapsible" data-theme="a" data-content-theme="a">
+    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
         <h3>Финансы (Отгружено)</h3>
     {{ part_9|safe }}
     </div>
 </div>
-<div data-role="collapsible" data-theme="a" data-content-theme="a">
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
         <h3>Выпуск</h3>
     {{ part_2|safe }}
 </div>
 
-<div data-role="collapsibleset" data-theme="b" data-content-theme="b" class="ui-btn ui-icon-check ui-btn-icon-left">
-<div data-role="collapsible" data-theme="a" data-content-theme="a">
+<div data-role="collapsibleset" data-theme="{{t}}" data-content-theme="{{t}}" class="ui-btn ui-icon-gear ui-btn-icon-left">
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
         <h3>Сырье (Остатки)</h3>
     {{ part_4|safe }}
 </div>
 
 
 
-<div data-role="collapsible" data-theme="a" data-content-theme="a">
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
         <h3>Выпуск</h3>
     {{ part_8|safe }}
 </div>
 
 
-<div data-role="collapsible" data-theme="a" data-content-theme="a">
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
         <h3>Сырье (Приход)</h3>
     {{ part_10|safe }}
 </div>
 </div>
+
+<div class='wide'>
+</div>
+
 {{ content | safe }}
 
 {% endblock %}

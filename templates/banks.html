@@ -10,48 +10,46 @@
 {% endblock %}
 
 {% block content %}
- <div data-role="collapsibleset" data-theme="a" data-content-theme="a">   
-     <br>
-     <br>
- <div data-role="collapsible" data-theme="a" data-content-theme="a" >
-    <h3 class="ui-btn ui-icon-calendar ui-btn-icon-right">Календарь</h3>
+ <div data-role="collapsibleset" data-theme="{{t}}" data-content-theme="{{t}}">   
+     <h3 class="ui-btn ui-icon-calendar ui-btn-icon-left">Календарь</h3>
     <form action="#" method="POST">
         <div data-role="fieldcontain">
-          <input value="" name="date" type="date" data-role="datebox" data-inline="true" id="date" data-theme="a"
-          data-options='{"mode":"calbox"}'/>
-         <input type="submit" value="Перейти" data-role='button' data-inline="true">
-        </div>   
-         <input type="submit" value="<" name='prev' data-role='button' data-inline="true" class="ui-btn ui-icon-money ui-btn-icon-right">
-         <input type="submit" value=">" name='next' data-role='button' data-inline="true" class="ui-btn ui-icon-money ui-btn-icon-right">
+          <input value="" name="date" type="date" data-role="datebox" data-inline="false" data-theme="{{t}}"/>
+         <input type="submit" value="Перейти" data-role='button' data-inline="true">  
+         <input type="submit" value="<" name='prev' data-role='button' data-inline="true">
+         <input type="submit" value=">" name='next' data-role='button' data-inline="true">
+        </div> 
      </form>    
-</div>
+
 </div>
 
-<div data-role="collapsible" data-theme="a" data-content-theme="a">
-        <h3 class="ui-btn ui-icon-money ui-btn-icon-right">ПАТ "ПІВДЕННИЙ"</h3>
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+        <h3>ПАТ "ПІВДЕННИЙ"</h3>
 {{ bank_id_3|safe }}
 </div>
 
-<div data-role="collapsible" data-theme="a" data-content-theme="a">
-        <h3 class="ui-btn ui-icon-money ui-btn-icon-right">ПАТ "АКБ Київ"</h3>
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+        <h3>ПАТ "АКБ Київ"</h3>
     {{ bank_id_2|safe }}
 </div>
 
-<div data-role="collapsible" data-theme="a" data-content-theme="a">
-        <h3 class="ui-btn ui-icon-money ui-btn-icon-right">ПАТ "КРЕДИТПРОМБАНК"</h3>
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+        <h3>ПАТ "КРЕДИТПРОМБАНК"</h3>
     {{ bank_id_1|safe}}
 </div>
 
-<div data-role="collapsible" data-theme="a" data-content-theme="a">
-        <h3 class="ui-btn ui-icon-money ui-btn-icon-right">ПАТ "ВБР"</h3>
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+        <h3>ПАТ "ВБР"</h3>
     {{ bank_id_4|safe }}
 </div>
 
-<div data-role="collapsible" data-theme="a" data-content-theme="a">
-        <h3 class="ui-btn ui-icon-credit-card ui-btn-icon-right">Основная касса (грн)</h3>
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+        <h3>Основная касса (грн)</h3>
     {{ bank_id_0|safe }}
 </div>
 
+<div class='wide'>
+</div>
 {{ content | safe }}
 
 {% endblock %}

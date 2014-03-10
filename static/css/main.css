@@ -4,14 +4,6 @@ html {
 }
 
 
-
-body {
-    font-family: Verdana, Arial, Helvetica, serif;
-    font-size: 12px;
-
-    background-image: url(/static/images/carbon2.jpg);
-}
-
 a
 {
 padding: 0.5em 0.75em 0.5em 0.75em;
@@ -43,13 +35,6 @@ p {
     vertical-align:middle;
 }
 
-h2 {
-    color: #3b70a3;
-}
-
-h3 {
-    color: #3b70a3;
-}
 
 
 .wide { min-width: 100%; 
@@ -99,27 +84,6 @@ border-bottom-left-radius: 10px;
 }
 
 
-
-
-.slidingDiv {
-    height:200px;
-    padding:0px;
-    margin-top:0px;
-    border-bottom:2px solid #FFA500;
-    overflow-y: auto;
-    overflow-x: auto;
-
-
-}
-
-.show_hide {
-    display:none;
-}
-
-
-
-
-
 .bank_summary_head_main {
 font-size: 14px;
    color:#3b70a3;
@@ -140,9 +104,8 @@ display:inline-block;
 .child_div_1{
     float:left;
     margin-left:10px;
-    margin-top: 0px;
-    font-size: 18px;
-    color: #3b70a3;
+    font-size: 16px;
+    color: #aaaaaa;
     font-weight: bold;
     text-align: center;
     vertical-align: text-top;

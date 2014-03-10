@@ -5,10 +5,16 @@ from common.mtsql import bank_sql as bsql
 from common.mtsql import monitor_sql as msql
 import datetime
 import logging
-logging.basicConfig(filename='xlogger.log',level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 from common.definition import Config 
 from ConfigParser import SafeConfigParser
 from time import sleep
+import os
+
+path os.path.dirname(os.path.realpath(__file__))
+
+
+logging.basicConfig(filename=path+'/xlogger.log',level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+
 
 c = Config()
 cfg = SafeConfigParser()
@@ -38,8 +44,12 @@ class xlogger(object):
         :returns: @todo
 
         """
-        with open(self.path+self.p.get_filename(type_id, bank_id),'r') as xfile:
-             xml = xfile.read()
+        try:
+            with open(self.path+self.p.get_filename(type_id, bank_id),'r') as xfile:
+                 xml = xfile.read()
+        except:
+            logging.debug(u"Не могу прочесть файл")
+            xml = ""
         return xml
 
     def store_to_db(self, type_id,  bank_id='0'):
@@ -59,22 +69,23 @@ class xlogger(object):
                 last_xml = ""
                 last_date =""
             new_data = self.get_xml(type_id, bank_id)
-            if last_xml == new_data.decode('utf-8'):
-                log = typetxt[type_id] + bank[bank_id] + u" Не изменилось не пишу в базу"
-                logging.debug(log)
-                #s.update_bank(bank_id, new_data)
-            else:
-                log = typetxt[type_id] + bank[bank_id] + u" Данные изменились, проверяю наличие даты в базе"
-                logging.debug(log)
-                if last_date == str(datetime.datetime.now().date()):
-                    log = typetxt[type_id] + bank[bank_id] + u" Данные с этой датой "+last_date+u" существуют, обновляю запись"
+            if new_data != '':                
+                if last_xml == new_data.decode('utf-8'):
+                    log = typetxt[type_id] + bank[bank_id] + u" Не изменилось не пишу в базу"
                     logging.debug(log)
-                    self.s.update_bank(bank_id, new_data)
+                    #s.update_bank(bank_id, new_data)
                 else:
-                    cur_date = str(datetime.datetime.now().date())
-                    log = typetxt[type_id] + bank[bank_id] + u" Новая дата, добавляю запись"
+                    log = typetxt[type_id] + bank[bank_id] + u" Данные изменились, проверяю наличие даты в базе"
                     logging.debug(log)
-                    self.s.insert_bank(bank_id, new_data, cur_date)
+                    if last_date == str(datetime.datetime.now().date()):
+                        log = typetxt[type_id] + bank[bank_id] + u" Данные с этой датой "+last_date+u" существуют, обновляю запись"
+                        logging.debug(log)
+                        self.s.update_bank(bank_id, new_data)
+                    else:
+                        cur_date = str(datetime.datetime.now().date())
+                        log = typetxt[type_id] + bank[bank_id] + u" Новая дата, добавляю запись"
+                        logging.debug(log)
+                        self.s.insert_bank(bank_id, new_data, cur_date)
 
         if type_id == '2':
             # Monitor
@@ -85,17 +96,18 @@ class xlogger(object):
                 last_monitor = ''
                 last_date = ''
             new_data = self.get_xml('2')
-            if last_monitor == new_data.decode('utf-8'):
-                log = u"Данные монитора не изменились"
-            else:
-                if last_date == str(datetime.datetime.now().date()):
-                    log = u"Данные монитора изменились, обновляю"
-                    self.ms.update_monitor(new_data, last_date)
+            if new_data != '':
+                if last_monitor == new_data.decode('utf-8'):
+                    log = u"Данные монитора не изменились"
                 else:
-                    cur_date = str(datetime.datetime.now().date())
-                    self.ms.insert_monitor(new_data, cur_date)
-                    log = u"Данные монитора отсутствуют, добавляю запись"
-            logging.debug(log)
+                    if last_date == str(datetime.datetime.now().date()):
+                        log = u"Данные монитора изменились, обновляю"
+                        self.ms.update_monitor(new_data, last_date)
+                    else:
+                        cur_date = str(datetime.datetime.now().date())
+                        self.ms.insert_monitor(new_data, cur_date)
+                        log = u"Данные монитора отсутствуют, добавляю запись"
+                logging.debug(log)
 
         return log
 
@@ -113,8 +125,6 @@ class xlogger(object):
 if __name__ == '__main__':
     x = xlogger()
     x.store_data()
-
-
-
+    
 
 

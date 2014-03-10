@@ -15,7 +15,9 @@ banks = Blueprint('banks', __name__)
 @banks.route("/bank", methods=['GET','POST'])
 def banks_page():
     if 'username' not in session:
-       return redirect('/login')     
+       return redirect('/login')   
+    if 'theme' not in session:
+        session['theme']='a'
     if request.method == 'POST':
         if request.form['date']:
             date = request.form['date']
@@ -74,6 +76,6 @@ def banks_page():
     summa = u"Общая cумма: " + sum + u" грн"
     return render_template('banks.html', 
                             bank_id_0=cassa, bank_id_1=bank_1, bank_id_2=bank_2, 
-                            bank_id_3=bank_3, bank_id_4=bank_4,
+                            bank_id_3=bank_3, bank_id_4=bank_4,t=session['theme'],
                             title=u"Состояние счетов", footer=summa,summary=date)
 
