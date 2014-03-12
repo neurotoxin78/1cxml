@@ -48,10 +48,6 @@ def banks_page():
     except:
         cassa = u"Нет данных"
     try:
-        bank_1 = h.gen_summary_html(p.xml2dict_summary_bank("1", date),"1", date)
-    except:
-        bank_1 = u"Нет данных"
-    try:
         bank_2 = h.gen_summary_html(p.xml2dict_summary_bank("2", date),"2", date)
     except:
         bank_2 = u"Нет данных"
@@ -75,7 +71,7 @@ def banks_page():
     #platform = request.user_agent.platform
     summa = u"Общая cумма: " + sum + u" грн"
     return render_template('banks.html', 
-                            bank_id_0=cassa, bank_id_1=bank_1, bank_id_2=bank_2, 
+                            bank_id_0=cassa, bank_id_2=bank_2, 
                             bank_id_3=bank_3, bank_id_4=bank_4,t=session['theme'],
                             title=u"Состояние счетов", footer=summa,summary=date)
 

@@ -32,7 +32,7 @@ class BankParcer(object):
         bankid = self.c.bank_id()
         kost_list = []
         for keys in bankid:
-            if keys != '__name__':
+            if keys != '__name__' and keys != '1':
                 if keys == '0':
                     xml = self.soap.get_data('0',keys, date)
                 else:

@@ -18,15 +18,28 @@
 </div>
 
 <div data-role="collapsibleset" data-theme="{{t}}" data-content-theme="{{t}}" class="ui-btn ui-icon-usd ui-btn-icon-left"> 
+<h3>Текущее состояние</h3>
+
     <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
-            <h3>Финансы (Остатки)</h3>
+            <h3>Остатки (грн)</h3>
             {{ part_1|safe }}
     </div>
-    
+
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+        <h3>Выпуск (т)</h3>
+    {{ part_2|safe }}
+</div>
+
     <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
-        <h3>Финансы (Приход)</h3>
-    {{ part_7|safe }}
+        <h3>Отгружено (грн)</h3>
+        {{ part_3|safe}}
     </div>
+
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+        <h3>Сырье (т)</h3>
+    {{ part_4|safe }}
+</div>
+
 
     <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
         <h3>Дебиторы</h3>
@@ -38,39 +51,33 @@
     {{ part_6|safe }}
     </div>
 
-    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
-        <h3>Финансы (Отгрузка)</h3>
-        {{ part_3|safe}}
-    </div>
 
-    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
-        <h3>Финансы (Отгружено)</h3>
-    {{ part_9|safe }}
-    </div>
+
+
 </div>
 
 <div data-role="collapsibleset" data-theme="{{t}}" data-content-theme="{{t}}" class="ui-btn ui-icon-gear ui-btn-icon-left">
+<h3>За год</h3>
+
+    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+        <h3>Приход (грн)</h3>
+    {{ part_7|safe }}
+    </div>
 
 <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
-        <h3>Выпуск (Сейчас)</h3>
-    {{ part_2|safe }}
-</div>
-
-<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
-        <h3>Выпуск (За месяц)</h3>
+        <h3>Выпуск (т)</h3>
     {{ part_8|safe }}
 </div>
 
 
+    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+        <h3>Отгружено (грн)</h3>
+    {{ part_9|safe }}
+    </div>
+
+
 <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
-        <h3>Сырье (Остатки)</h3>
-    {{ part_4|safe }}
-</div>
-
-
-
-<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
-        <h3>Сырье (Приход)</h3>
+        <h3>Сырье (т)</h3>
     {{ part_10|safe }}
 </div>
 </div>
