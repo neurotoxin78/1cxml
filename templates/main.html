@@ -24,6 +24,22 @@ $(document).bind("mobileinit", function () {
 
 });
 </script>
+ <script>
+$('#openAll').on('click', function() {
+    $('.openMe').trigger('expand');
+});
+$('#closeAll').on('click', function() {
+    $('.openMe').trigger('collapse');
+});
+ </script>
+
+
+<script>
+$( document ).bind( "mobileinit", function(){
+    $.mobile.collapsible.prototype.options.collapsedIcon = "arrow-d";
+});
+</script>
+
 
 <style type="text/css">
 .ui-loader-background {

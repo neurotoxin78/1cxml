@@ -10,40 +10,44 @@
 {% endblock %}
 
 {% block content %}
- <div data-role="collapsibleset" data-theme="{{t}}" data-content-theme="{{t}}">   
+ <div data-role="collapsibleset" data-theme="{{t}}" data-content-theme="{{t}}"  data-mini="true">   
      <h3 class="ui-btn ui-icon-calendar ui-btn-icon-left">Календарь</h3>
     <form action="#" method="POST">
         <div data-role="fieldcontain">
-          <input value="" name="date" type="date" data-role="datebox" data-inline="false" data-theme="{{t}}"/>
-         <input type="submit" value="Перейти" data-role='button' data-inline="true">  
-         <input type="submit" value="<" name='prev' data-role='button' data-inline="true">
-         <input type="submit" value=">" name='next' data-role='button' data-inline="true">
+          <input value="" name="date" type="date" data-role="datebox" data-inline="false" data-theme="{{t}}"  data-mini="true"/>
+         <input type="submit" value="Перейти" data-role='button' data-inline="true"  data-mini="true">  
+         <input type="submit" value="<" name='prev' data-role='button' data-inline="true"  data-mini="true">
+         <input type="submit" value=">" name='next' data-role='button' data-inline="true"  data-mini="true">
         </div> 
      </form>    
 
 </div>
 
-<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+<div data-role="collapsibleset" data-theme="{{t}}" data-content-theme="{{t}}" class="ui-btn ui-icon-usd "  data-mini="true"> 
+    <h3>{{ chead|safe}}</h3>
+
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}"  data-mini="true">
         <h3>ПАТ "ПІВДЕННИЙ"</h3>
 {{ bank_id_3|safe }}
 </div>
 
-<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}"  data-mini="true">
         <h3>ПАТ "АКБ Київ"</h3>
     {{ bank_id_2|safe }}
 </div>
 
 
-<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}"  data-mini="true">
         <h3>ПАТ "ВБР"</h3>
     {{ bank_id_4|safe }}
 </div>
 
-<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}"  data-mini="true">
         <h3>Основная касса (грн)</h3>
     {{ bank_id_0|safe }}
 </div>
 
+</div>
 <div class='wide'>
 </div>
 {{ content | safe }}

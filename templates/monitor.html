@@ -3,6 +3,7 @@
 {% block dt %}
 <meta http-equiv="refresh" content="320">
 
+
 {% endblock %}
 
 {% block content %}
@@ -10,10 +11,10 @@
     <h3 class="ui-btn ui-icon-calendar ui-btn-icon-left">Календарь</h3>
     <form action="#" method="POST">
           <input value="" name="date" type="date" data-role="datebox" id="date" data-theme="{{t}}"
-          data-options='{"mode":"calbox"}'/>   
-          <input type="submit" value="Перейти" data-role='button' data-inline="true">
-         <input type="submit" value="<" name='prev' data-role='button' data-inline="true">
-         <input type="submit" value=">" name='next' data-role='button' data-inline="true">
+          data-options='{"mode":"calbox"}'  data-mini="true" />   
+          <input type="submit" value="Перейти" data-role='button' data-inline="true"  data-mini="true">
+         <input type="submit" value="<" name='prev' data-role='button' data-inline="true"  data-mini="true">
+         <input type="submit" value=">" name='next' data-role='button' data-inline="true"  data-mini="true">
              <div class='info'><center>
                  Страница обновляется на текущую дату<br>каждые 5 минут
                 </center>
@@ -21,37 +22,36 @@
     </form>
 </div>
 
-
-<div data-role="collapsibleset" data-theme="{{t}}" data-content-theme="{{t}}" class="ui-btn ui-icon-usd ui-btn-icon-left"> 
+<div data-role="collapsibleset" data-theme="{{t}}" data-content-theme="{{t}}" class="ui-btn ui-icon-usd "  data-mini="true"> 
 <h3>Текущее состояние</h3>
 
-    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}" class="openMe">
             <h3>Остатки (грн)</h3>
             {{ part_1|safe }}
     </div>
 
-<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}" class="openMe">
         <h3>Выпуск (т)</h3>
     {{ part_2|safe }}
 </div>
 
-    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}" class="openMe">
         <h3>Отгружено (грн)</h3>
         {{ part_3|safe}}
     </div>
 
-<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}" class="openMe">
         <h3>Сырье (т)</h3>
     {{ part_4|safe }}
 </div>
 
 
-    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}" class="openMe">
         <h3>Дебиторы</h3>
     {{ part_5|safe }}
     </div>
 
-    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}" class="openMe">
         <h3>Кредиторы</h3>
     {{ part_6|safe }}
     </div>
@@ -61,34 +61,32 @@
 
 </div>
 
-<div data-role="collapsibleset" data-theme="{{t}}" data-content-theme="{{t}}" class="ui-btn ui-icon-gear ui-btn-icon-left">
+<div data-role="collapsibleset" data-theme="{{t}}" data-content-theme="{{t}}" class="ui-btn ui-icon-gear"  data-mini="true">
 <h3>За год</h3>
 
-    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}" class="openMe">
         <h3>Приход (грн)</h3>
     {{ part_7|safe }}
     </div>
 
-<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}" class="openMe">
         <h3>Выпуск (т)</h3>
     {{ part_8|safe }}
 </div>
 
 
-    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+    <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}" class="openMe">
         <h3>Отгружено (грн)</h3>
     {{ part_9|safe }}
     </div>
 
 
-<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}" class="openMe">
         <h3>Сырье (т)</h3>
     {{ part_10|safe }}
 </div>
 </div>
 
-<div class='wide'>
-</div>
 
 {{ content | safe }}
 
