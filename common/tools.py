@@ -9,7 +9,7 @@ class Users(object):
 
     def __init__(self):
         """@todo: to be defined1. """
-        self.database = 'users.db'
+        self.database = '/opt/ui2/1cxml/users.db'
 
     def connect(self):
         self.con = lite.connect(self.database)

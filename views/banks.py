@@ -59,10 +59,8 @@ def banks_page():
         bank_4 = h.gen_summary_html(p.xml2dict_summary_bank("4", date),"4", date)        
     except:
         bank_4 = u"Нет данных"
-    try:
-        sum = p.sum_of_all(date)
-    except:
-        sum = u'Нет данных'
+    sum = p.sum_of_all(date)
+#        sum = u'Нет данных'
     try:
         date=datetime.fromtimestamp(mktime(time.strptime(date,'%Y-%m-%d'))).strftime('%d-%m-%Y')   
     except:

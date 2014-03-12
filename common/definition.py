@@ -9,7 +9,7 @@ class Config(object):
     def __init__(self):
         """@todo: to be defined1. """
         self.cfg = SafeConfigParser()
-        self.cfg.read("uinformed.conf")
+        self.cfg.read("/opt/ui2/1cxml/uinformed.conf")
 
     def type_id(self):
         """@todo: Docstring for definition.

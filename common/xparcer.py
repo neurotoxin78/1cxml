@@ -6,6 +6,9 @@ from soap import soap
 from xml.etree.ElementTree import fromstring, ElementTree
 import unicodedata
 from locale import atof, format, currency
+import locale
+#ru_UA.UTF-8
+locale.setlocale( locale.LC_ALL, 'ru_UA.UTF-8' )
 
 class BankParcer(object):
 
@@ -46,6 +49,7 @@ class BankParcer(object):
                     if item.attrib.has_key('bank_konech_ost'):
                         kost_list.append( item.attrib['bank_konech_ost'].encode('ascii','ignore'))
         sum = 0
+	locale.setlocale( locale.LC_ALL, 'ru_UA.UTF-8' )
         for item in kost_list:
             sum = sum + float(atof(item))
         return currency(sum, symbol=False, grouping=True)
