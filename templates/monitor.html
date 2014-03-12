@@ -1,6 +1,7 @@
 {% extends "main.html" %}
 
 {% block dt %}
+<meta http-equiv="refresh" content="320">
 
 {% endblock %}
 
@@ -13,9 +14,13 @@
           <input type="submit" value="Перейти" data-role='button' data-inline="true">
          <input type="submit" value="<" name='prev' data-role='button' data-inline="true">
          <input type="submit" value=">" name='next' data-role='button' data-inline="true">
-
+             <div class='info'><center>
+                 Страница обновляется на текущую дату<br>каждые 5 минут
+                </center>
+     </div>
     </form>
 </div>
+
 
 <div data-role="collapsibleset" data-theme="{{t}}" data-content-theme="{{t}}" class="ui-btn ui-icon-usd ui-btn-icon-left"> 
 <h3>Текущее состояние</h3>
@@ -86,5 +91,6 @@
 </div>
 
 {{ content | safe }}
+
 
 {% endblock %}

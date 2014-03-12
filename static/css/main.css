@@ -27,6 +27,20 @@ li
     list-style-type: none;
 }
 
+.info {
+    float: right;
+    padding: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    vertical-align:middle;
+    color: red;
+    }
+
+.infoimg {
+    float: right;
+    display: block;
+}
 
 p {
     padding: 1px;
