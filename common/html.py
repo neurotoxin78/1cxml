@@ -1,6 +1,5 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from xparcer import BankParcer as bank_parcer
 import datetime
 
 class html(object):
@@ -9,7 +8,7 @@ class html(object):
 
     def __init__(self):
         """@todo: to be defined1. """
-        self.p = bank_parcer()
+  #      self.p = bank_parcer()
 
     def gen_summary_html(self, data_dict, bank_id, date=datetime.datetime.now().date()):
         """@todo: Docstring for gen_summary_html.

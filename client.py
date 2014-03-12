@@ -7,6 +7,6 @@ import time
 #SOAPpy.Config.debug = 1
 
 server = SOAPpy.SOAPProxy("http://10.10.10.20:7777/")
-resp = server.get_xml()
+resp = server.get_xml("2","0", '2014-03-01')
 print resp
 

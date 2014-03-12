@@ -1,9 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from flask import Blueprint, render_template, session, redirect, request
-from datetime import datetime
+from datetime import datetime, timedelta
+import time
+from time import mktime
 from common.xparcer import MonitorParcer
 from common.html import html
+
 h=html()
 p = MonitorParcer()
 
@@ -17,9 +20,33 @@ def monitor_page():
     if 'theme' not in session:
         session['theme']='a'   
     if request.method == 'POST':
-        date = request.form['date']
-    else: 
+        if request.form['date']:
+            date = request.form['date']
+        if 'prev' in request.form:
+            if 'date' not in session:
+                date = str(datetime.now().date() - timedelta(days = 1))
+                session['date'] = date
+            else:
+                d=datetime.fromtimestamp(mktime(time.strptime(session['date'],'%Y-%m-%d')))
+                d = d - timedelta(days = 1)
+                date = d.strftime('%Y-%m-%d')
+                session['date'] = date
+        if 'next' in request.form:
+            if 'date' not in session:
+                date = str(datetime.now().date() + timedelta(days = 1))
+                session['date'] = date
+            else:
+                d=datetime.fromtimestamp(mktime(time.strptime(session['date'],'%Y-%m-%d')))
+                d = d + timedelta(days = 1)
+                date = d.strftime('%Y-%m-%d')
+                session['date'] = date
+    else:
+        session['date']=str(datetime.now().date())
         date = str(datetime.now().date())
+
+
+
+
     part_1_data = []
     part_2_data = []
     part_3_data = []
@@ -30,8 +57,7 @@ def monitor_page():
     part_8_data = []
     part_9_data = []
     part_10_data = []
-
-    rawdata = p.monitor2dict(date)
+    rawdata = p.monitor2dict('2',date)
     for part_name, value in rawdata:
         if part_name == u'Раздел1':
             part_1=()
@@ -104,8 +130,10 @@ def monitor_page():
     p9 = h.gen_monitor_table(part_9_data)
     p10 = h.gen_monitor_table(part_10_data)
 
+    date=datetime.fromtimestamp(mktime(time.strptime(date,'%Y-%m-%d'))).strftime('%d-%m-%Y')
+
     return render_template('monitor.html', part_1=p1, part_2=p2, part_3=p3, part_4=p4,
                             part_5=p5, part_6=p6, part_7=p7, part_8=p8, part_9=p9,
                             part_10=p10,t=session['theme'],
-                            title=u"Монитор руководителя")
+                            title=u"Монитор руководителя "+date)
 

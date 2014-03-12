@@ -9,7 +9,7 @@ class Config(object):
     def __init__(self):
         """@todo: to be defined1. """
         self.cfg = SafeConfigParser()
-        self.cfg.read("xlogger.conf")
+        self.cfg.read("uinformed.conf")
 
     def type_id(self):
         """@todo: Docstring for definition.

@@ -11,6 +11,9 @@
           <input value="" name="date" type="date" data-role="datebox" id="date" data-theme="{{t}}"
           data-options='{"mode":"calbox"}'/>   
           <input type="submit" value="Перейти" data-role='button' data-inline="true">
+         <input type="submit" value="<" name='prev' data-role='button' data-inline="true">
+         <input type="submit" value=">" name='next' data-role='button' data-inline="true">
+
     </form>
 </div>
 
@@ -45,23 +48,25 @@
     {{ part_9|safe }}
     </div>
 </div>
+
+<div data-role="collapsibleset" data-theme="{{t}}" data-content-theme="{{t}}" class="ui-btn ui-icon-gear ui-btn-icon-left">
+
 <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
-        <h3>Выпуск</h3>
+        <h3>Выпуск (Сейчас)</h3>
     {{ part_2|safe }}
 </div>
 
-<div data-role="collapsibleset" data-theme="{{t}}" data-content-theme="{{t}}" class="ui-btn ui-icon-gear ui-btn-icon-left">
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
+        <h3>Выпуск (За месяц)</h3>
+    {{ part_8|safe }}
+</div>
+
+
 <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
         <h3>Сырье (Остатки)</h3>
     {{ part_4|safe }}
 </div>
 
-
-
-<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">
-        <h3>Выпуск</h3>
-    {{ part_8|safe }}
-</div>
 
 
 <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}">

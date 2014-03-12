@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 from datetime import datetime
 from definition import Config 
-from mtsql import bank_sql
-from mtsql import monitor_sql
+from soap import soap
 from xml.etree.ElementTree import fromstring, ElementTree
 import unicodedata
 from locale import atof, format, currency
@@ -15,36 +14,18 @@ class BankParcer(object):
     def __init__(self):
         """@todo: to be defined1. """
         self.c = Config()
-        self.s = bank_sql()
-        self.m = monitor_sql()
-        
-    def get_filename(self, type_id, bank_id='0', date=datetime.now().date()):
-        """@todo: Docstring for get_filename.
-
-        :type_id: @todo
-        :date: @todo
-        :returns: @todo
-
-
-        """
-        filepart = self.c.type_id()
-        if filepart == '0':
-            filename = filepart[type_id]+"_"+str(date)+".xml"
-        else:
-            bank = self.c.bank_id()
-            filename = filepart[type_id]+bank[bank_id]+"_"+str(date)+".xml"
-        return filename
+        self.soap = soap()
 
     def xml2dict_summary_bank(self, bank_id, date=datetime.now().date()):
-        bankid = self.c.bank_id()
-        xml = self.s.get_last_bank(bank_id, date)
-        tree = ElementTree(fromstring(xml[0][0].encode('utf-8')))
+        if bank_id == '0':
+            xml = self.soap.get_data('0',bank_id, date)
+        else:
+            xml = self.soap.get_data('1',bank_id, date)            
+        tree = ElementTree(fromstring(xml.encode('utf-8')))
         root = ElementTree.getroot(tree)
-#        print xml[0][0].encode('utf-8')
         children = root.getchildren()
         for item in children:
             summary = item.attrib
-
         return summary
     
     def sum_of_all(self, date=datetime.now().date()):
@@ -52,12 +33,14 @@ class BankParcer(object):
         kost_list = []
         for keys in bankid:
             if keys != '__name__':
-                xml = self.s.get_last_bank(keys, date)
-                tree = ElementTree(fromstring(xml[0][0].encode('utf-8')))
+                if keys == '0':
+                    xml = self.soap.get_data('0',keys, date)
+                else:
+                    xml = self.soap.get_data('1',keys, date)
+                tree = ElementTree(fromstring(xml.encode('utf-8')))
                 root = ElementTree.getroot(tree)                
                 children = root.getchildren()
                 for item in children:
-                    #print item.attrib
                     if item.attrib.has_key('kassa_konech_ost'):
                         kost_list.append(item.attrib['kassa_konech_ost'].encode('ascii','ignore'))
                     if item.attrib.has_key('bank_konech_ost'):
@@ -73,20 +56,9 @@ class MonitorParcer(object):
 
     def __init__(self):
         """@todo: to be defined1. """
-        self.c = Config() 
-        self.s = monitor_sql()    
-    def get_filename(self,  monitor_id, date=str(datetime.now().date())):
-        """@todo: Docstring for get_filename.
-
-        :monitor_id: @todo
-        :returns: @todo
-
-        """
-        filepart = self.c.monitor_id()
-        filename = filepart[monitor_id]+'_'+date+'.xml'
-        return filename
-
-    def monitor2dict(self, monitor_id='2', date=str(datetime.now().date())):
+        self.soap = soap()
+          
+    def monitor2dict(self, monitor_id, date=str(datetime.now().date())):
         """@todo: Docstring for monitor2dict.
 
         :arg1: @todo
@@ -94,8 +66,8 @@ class MonitorParcer(object):
 
         """
         data_list=[]
-        xml = self.s.get_monitor(date)
-        tree = ElementTree(fromstring(xml[0][0].encode('utf-8')))
+        xml = self.soap.get_data('2', '0', date)
+        tree = ElementTree(fromstring(xml.encode('utf-8')))
         root = ElementTree.getroot(tree)
         child_dict={}
         for item in root:
