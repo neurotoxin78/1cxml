@@ -28,10 +28,9 @@ class html(object):
             kassa_konech_ost = data_dict['kassa_konech_ost']
             kassa_nach_ost = data_dict['kassa_nach_ost']
         
-            name = u"<h2><center>"+kassa_name+u"<br>"+_date+"</center></h2>"
+            name = u"<center>"+kassa_name+u"<br>"+_date+"</center>"
             table = u"""
-            <div style="margin:0 auto;">
-            <center>
+
             <table data-role="table" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Показать" data-column-popup-theme="a" >
      <thead>
        <tr>
@@ -41,18 +40,21 @@ class html(object):
      </thead>
      <tbody>
 
-	            <tr>
-                        <td><h2>Приход: {} </h2></td>
-                        <td><h2>Расход: {} </h2></td>
-	            </tr>
-	            <tr>
-                        <td><h2>Начальный остаток: {} </h2></td>
-                        <td><h2>Конечный остаток: {} </h2></td>
-	            </tr>
+<tr>
+                        <td>Приход:</td><td> {} </td>
+</tr>
+<tr> 
+                       <td>Расход:</td><td> {} </td>
+</tr>
+<tr>
+                        <td>Нач.остаток:</td><td> {} </td>
+</tr>
+<tr>
+                        <td>Кон.остаток:</td><td> {} </td>
+</tr>         
         </tbody>
         </table>
-            </center>
-            </div>
+
             """.format(kassa_prixod,kassa_rasxod,kassa_nach_ost,kassa_konech_ost)
             html = name + table
 
@@ -63,10 +65,8 @@ class html(object):
             bank_konech_ost = data_dict['bank_konech_ost']
             bank_nach_ost = data_dict['bank_nach_ost']
         
-            name = "<h2><center>"+bank_name+u"<br>"+_date+"</center></h2>"
+            name = "<center>"+bank_name+u"<br>"+_date+"</center>"
             table = u"""
-            <div style="margin:0 auto;">
-            <center>
             <table data-role="table" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Показать" data-column-popup-theme="a">
      <thead>
        <tr>
@@ -76,18 +76,21 @@ class html(object):
      </thead>
      <tbody>
 
-	            <tr>
-                        <td><h2>Приход: {} </h2></td>
-                        <td><h2>Расход: {} </h2></td>
-	            </tr>
-	            <tr>
-                        <td><h2>Начальный остаток: {} </h2></td>
-                        <td><h2>Конечный остаток: {} </h2></td>
-	            </tr>
+<tr>
+                        <td>Приход:</td><td> {} </td>
+</tr>
+<tr> 
+                       <td>Расход:</td><td> {} </td>
+</tr>
+<tr>
+                        <td>Нач.остаток:</td><td> {} </td>
+</tr>
+<tr>
+                        <td>Кон.остаток:</td><td> {} </td>
+</tr>	            
             </tbody>
             </table>
-            </center>
-            </div>
+
             """.format(bank_prixod, bank_rasxod, bank_nach_ost, bank_konech_ost)
             html = name + table
 
