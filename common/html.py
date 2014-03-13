@@ -124,3 +124,34 @@ class html(object):
             '''.format(tdata[0], tdata[1])
         table = header+ tcell + "</tbody></table>"
         return table
+
+    def gen_ext_bank(self,  data_list, date=datetime.datetime.now().date()):
+        """@todo: Docstring for gen_ext_bank.
+
+        :data_list: @todo
+        :returns: @todo
+
+        """
+        header = u'''
+                <table cellpadding="0" cellspacing="0" border="0" class="display" id="pivden" width="100%">
+                <thead>
+                 <tr>
+                    <th>Контрагент</th>
+                    <th>Примечание</th>
+                    <th>Приход</th>
+                    <th>Расход</th>
+                 </tr>
+                </thead>
+                <tbody>
+                '''
+        data =''
+        for items in data_list:
+            t = '<tr>'
+            t = t + '<td width=15%>'+items['str_kontragent']+'</td><td>'+items['str_koment']+'</td><td>'+items['str_prixod']+'</td><td>'+items['str_rasxod']+'</td></tr>'
+            data = data + t
+        table = header+data+"</tbody></table>"
+
+        return data 
+
+
+

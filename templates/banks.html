@@ -2,11 +2,114 @@
 
 {% block dt %}
 <script>
-  //reset type=date inputs to text
+//reset type=date inputs to text
   $( document ).bind( "mobileinit", function(){
     $.mobile.page.prototype.options.degradeInputs.date = true;
   });	
 </script>
+
+<script type="text/javascript" language="javascript" src="/static/js/datatables/media/js/jquery.js"></script>
+
+		<style type="text/css" title="currentStyle">
+			@import "/static/js/datatables/media/css/jquery.dataTables.css";
+		</style>
+
+<script type="text/javascript" language="javascript" src="/static/js/datatables/media/js/jquery.dataTables.js"></script>
+
+<script>
+			$(document).ready(function() {
+
+				$('#id_0').dataTable( {
+                    "aoColumns": [
+						{ "sTitle": "Контрагент","sClass": "left","sWidth": "25%",  },
+						{ "sTitle": "Примечание", "sClass": "left" ,"sWidth": "50%"},
+						{ "sTitle": "Приход", "sClass": "center","sWidth": "15%" },
+                        { "sTitle": "Расход", "sClass": "center","sWidth": "15%" }
+					],
+                    "oLanguage": {
+				"sUrl": "/static/js/datatables/russian.txt"
+			},
+            "iDisplayLength": 25,
+            "bJQueryUI": true,
+            "bProcessing": true,
+            "bDestroy": true,
+            "bAutoWidth": false,
+            "bRetrieve": false,
+				} );
+			} );
+</script>
+
+
+<script>
+			$(document).ready(function() {
+
+				$('#id_3').dataTable( {
+                    "aoColumns": [
+						{ "sTitle": "Контрагент","sClass": "left","sWidth": "25%",  },
+						{ "sTitle": "Примечание", "sClass": "left" ,"sWidth": "50%"},
+						{ "sTitle": "Приход", "sClass": "center","sWidth": "15%" },
+                        { "sTitle": "Расход", "sClass": "center","sWidth": "15%" }
+					],
+                    "oLanguage": {
+				"sUrl": "/static/js/datatables/russian.txt"
+			},
+            "iDisplayLength": 25,
+            "bJQueryUI": true,
+            "bProcessing": true,
+            "bDestroy": true,
+            "bAutoWidth": false,
+            "bRetrieve": false,
+				} );
+			} );
+</script>
+
+
+<script>
+			$(document).ready(function() {
+
+				$('#id_3').dataTable( {
+                    "aoColumns": [
+						{ "sTitle": "Контрагент","sClass": "left","sWidth": "25%",  },
+						{ "sTitle": "Примечание", "sClass": "left" ,"sWidth": "50%"},
+						{ "sTitle": "Приход", "sClass": "center","sWidth": "15%" },
+                        { "sTitle": "Расход", "sClass": "center","sWidth": "15%" }
+					],
+                    "oLanguage": {
+				"sUrl": "/static/js/datatables/russian.txt"
+			},
+            "iDisplayLength": 25,
+            "bJQueryUI": true,
+            "bProcessing": true,
+            "bDestroy": true,
+            "bAutoWidth": false,
+            "bRetrieve": false,
+				} );
+			} );
+</script>
+<script>
+			$(document).ready(function() {
+
+				$('#id_4').dataTable( {
+                    "aoColumns": [
+						{ "sTitle": "Контрагент","sClass": "left","sWidth": "25%",  },
+						{ "sTitle": "Примечание", "sClass": "left" ,"sWidth": "50%"},
+						{ "sTitle": "Приход", "sClass": "center","sWidth": "15%" },
+                        { "sTitle": "Расход", "sClass": "center","sWidth": "15%" }
+					],
+                    "oLanguage": {
+				"sUrl": "/static/js/datatables/russian.txt"
+			},
+            "iDisplayLength": 25,
+            "bJQueryUI": true,
+            "bProcessing": true,
+            "bDestroy": true,
+            "bAutoWidth": false,
+            "bRetrieve": false,
+				} );
+			} );
+</script>
+
+
 {% endblock %}
 
 {% block content %}
@@ -29,22 +132,91 @@
 <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}"  data-mini="true" data-collapsed="false">
         <h3>ПАТ "ПІВДЕННИЙ"</h3>
 {{ bank_id_3|safe }}
+
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}"  data-mini="true" data-collapsed="false">
+    <h3>Контировка</h3>
+    <table cellpadding="0" cellspacing="0" border="0" class="display" id="id_3" width="100%">
+        <thead>
+            <tr>
+               <th width=10%>Контрагент</th>
+               <th>Примечание</th>
+               <th>Приход</th>
+               <th>Расход</th>
+            </tr>
+        </thead>
+        <tbody>
+        {{ ext_id_3|safe}}
+        </tbody>
+    </table>
+</div>
+<p>
 </div>
 
 <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}"  data-mini="true">
         <h3>ПАТ "АКБ Київ"</h3>
     {{ bank_id_2|safe }}
-</div>
 
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}"  data-mini="true" data-collapsed="false">
+    <h3>Контировка</h3>
+    <table cellpadding="0" cellspacing="0" border="0" class="display" id="id_2" width="100%">
+        <thead>
+            <tr>
+               <th width=10%>Контрагент</th>
+               <th>Примечание</th>
+               <th>Приход</th>
+               <th>Расход</th>
+            </tr>
+        </thead>
+        <tbody>
+        {{ ext_id_2|safe}}
+        </tbody>
+    </table>
+</div>
+<p>
+</div>
 
 <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}"  data-mini="true">
         <h3>ПАТ "ВБР"</h3>
     {{ bank_id_4|safe }}
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}"  data-mini="true" data-collapsed="false">
+    <h3>Контировка</h3>
+    <table cellpadding="0" cellspacing="0" border="0" class="display" id="id_4" width="100%">
+        <thead>
+            <tr>
+               <th width=10%>Контрагент</th>
+               <th>Примечание</th>
+               <th>Приход</th>
+               <th>Расход</th>
+            </tr>
+        </thead>
+        <tbody>
+        {{ ext_id_4|safe}}
+        </tbody>
+    </table>
+</div>
+<p>
 </div>
 
 <div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}"  data-mini="true">
         <h3>Основная касса (грн)</h3>
     {{ bank_id_0|safe }}
+<div data-role="collapsible" data-theme="{{t}}" data-content-theme="{{t}}"  data-mini="true" data-collapsed="false">
+    <h3>Контировка</h3>
+    <table cellpadding="0" cellspacing="0" border="0" class="display" id="id_0" width="100%">
+        <thead>
+            <tr>
+               <th width=10%>Контрагент</th>
+               <th>Примечание</th>
+               <th>Приход</th>
+               <th>Расход</th>
+            </tr>
+        </thead>
+        <tbody>
+        {{ ext_id_0|safe}}
+        </tbody>
+    </table>
+</div>
+<p>
 </div>
 
 </div>

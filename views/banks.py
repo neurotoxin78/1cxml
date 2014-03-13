@@ -45,20 +45,35 @@ def banks_page():
         
     try:
         cassa = h.gen_summary_html(p.xml2dict_summary_bank("0", date),"0", date)
+        ext_id_0 = h.gen_ext_bank(p.xml2dict_ext_bank("0", date), date)
+        print ext_id_0
     except:
         cassa = u"Нет данных"
+        ext_id_0 = u'Нет контировок'
     try:
         bank_2 = h.gen_summary_html(p.xml2dict_summary_bank("2", date),"2", date)
+        ext_id_2 = h.gen_ext_bank(p.xml2dict_ext_bank("2", date), date)
     except:
         bank_2 = u"Нет данных"
+        ext_id_2 = u"Нет контировок"        
     try:
         bank_3 = h.gen_summary_html(p.xml2dict_summary_bank("3", date),"3", date)
+        ext_id_3 = h.gen_ext_bank(p.xml2dict_ext_bank("3", date), date)
     except:
         bank_3 = u"Нет данных"
+        ext_id_3 = u"Нет контировок"
     try:
-        bank_4 = h.gen_summary_html(p.xml2dict_summary_bank("4", date),"4", date)        
+        bank_4 = h.gen_summary_html(p.xml2dict_summary_bank("4", date),"4", date) 
+        ext_id_4 = h.gen_ext_bank(p.xml2dict_ext_bank("4", date), date)
     except:
         bank_4 = u"Нет данных"
+        ext_id_4 = u"Нет контировок"
+
+    ###
+    
+    
+
+
     try:
         sum = p.sum_of_all(date)
     except:
@@ -70,8 +85,11 @@ def banks_page():
         sum = p.sum_of_all()
     #platform = request.user_agent.platform
     summa = u"Общая cумма: " + sum + u" грн"
+
+
     return render_template('banks.html', 
                             bank_id_0=cassa, bank_id_2=bank_2, 
                             bank_id_3=bank_3, bank_id_4=bank_4,t=session['theme'],
+                            ext_id_3=ext_id_3, ext_id_2=ext_id_2, ext_id_4=ext_id_4, ext_id_0=ext_id_0,
                             title=u"Состояние счетов", chead=summa,summary=date)
 

@@ -30,7 +30,21 @@ class BankParcer(object):
         for item in children:
             summary = item.attrib
         return summary
-    
+
+    def xml2dict_ext_bank(self, bank_id, date=str(datetime.now().date())):
+        """@todo:  Выборка расширеной информации"""
+        if bank_id == '0':
+            xml = self.soap.get_data('0',bank_id, date)
+        else:
+            xml = self.soap.get_data('1',bank_id, date)  
+        tree = ElementTree(fromstring(xml.encode('utf-8')))
+        root = ElementTree.getroot(tree)
+        eb = root.getchildren()
+        data_list=[]
+        for items in eb[0].getchildren():
+            data_list.append(items.attrib)
+        return data_list
+
     def sum_of_all(self, date=datetime.now().date()):
         bankid = self.c.bank_id()
         kost_list = []
