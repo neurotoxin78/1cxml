@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 import hashlib
 import sqlite3 as lite
+import os
+
 
 class Users(object):
 
@@ -9,7 +11,8 @@ class Users(object):
 
     def __init__(self):
         """@todo: to be defined1. """
-        self.database = '/opt/ui2/1cxml/users.db'
+        path=os.path.dirname(os.path.realpath(__file__))[:-6]
+        self.database = path+'users.db'
 
     def connect(self):
         self.con = lite.connect(self.database)

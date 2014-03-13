@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 from ConfigParser import SafeConfigParser
+import os
+
 
 class Config(object):
 
@@ -8,8 +10,9 @@ class Config(object):
 
     def __init__(self):
         """@todo: to be defined1. """
+        path=os.path.dirname(os.path.realpath(__file__))[:-6]
         self.cfg = SafeConfigParser()
-        self.cfg.read("/opt/ui2/1cxml/uinformed.conf")
+        self.cfg.read(path+"uinformed.conf")
 
     def type_id(self):
         """@todo: Docstring for definition.
