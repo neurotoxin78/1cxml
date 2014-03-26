@@ -46,7 +46,6 @@ def banks_page():
     try:
         cassa = h.gen_summary_html(p.xml2dict_summary_bank("0", date),"0", date)
         ext_id_0 = h.gen_ext_bank(p.xml2dict_ext_bank("0", date), date)
-        print ext_id_0
     except:
         cassa = u"Нет данных"
         ext_id_0 = u'Нет контировок'
